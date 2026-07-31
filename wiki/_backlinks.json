@@ -1,8 +1,8 @@
 {
   "description": "Reverse link index. Maps article -> list of articles linking TO it.",
-  "last_updated": "1776927579.1545918",
-  "total_articles": 107,
-  "total_links": 330,
+  "last_updated": "2026-07-31",
+  "total_articles": 108,
+  "total_links": 339,
   "backlinks": {
     "apache-kafka": [
       "kafka-vs-rabbitmq",
@@ -30,6 +30,16 @@
       "smart-connections",
       "vllm"
     ],
+    "attribute-based-access-control": [
+      "abac-vs-rbac",
+      "authentication-vs-authorization",
+      "dac-vs-mac",
+      "abac-architecture",
+      "abac-attribute-management",
+      "abac-policy-models",
+      "next-generation-access-control",
+      "ngac-security-model"
+    ],
     "kafka-replication": [
       "kafka-administration",
       "kafka-consumer",
@@ -39,15 +49,6 @@
       "kafka-streams",
       "apache-kafka",
       "kafka-connect"
-    ],
-    "attribute-based-access-control": [
-      "abac-vs-rbac",
-      "authentication-vs-authorization",
-      "dac-vs-mac",
-      "abac-architecture",
-      "abac-attribute-management",
-      "abac-policy-models",
-      "next-generation-access-control"
     ],
     "typescript": [
       "interface-vs-type-alias",
@@ -74,19 +75,28 @@
       "flashback-data-archive",
       "pl-sql"
     ],
+    "next-generation-access-control": [
+      "abac-architecture",
+      "abac-policy-models",
+      "ngac-architecture",
+      "ngac-database-design",
+      "ngac-practical-implementation",
+      "ngac-security-model"
+    ],
+    "ngac-practical-implementation": [
+      "next-generation-access-control",
+      "ngac-database-design",
+      "ngac-microservices-architecture",
+      "ngac-permission-graph",
+      "ngac-security-model",
+      "ngac-transitive-closure"
+    ],
     "javascript-under-the-hood": [
       "virtual-dom-vs-real-dom",
       "javascript-advanced-mechanisms",
       "javascript-asynchronous-programming",
       "javascript-memory-management",
       "javascript-variables-and-scope"
-    ],
-    "next-generation-access-control": [
-      "abac-architecture",
-      "abac-policy-models",
-      "ngac-architecture",
-      "ngac-database-design",
-      "ngac-practical-implementation"
     ],
     "antigravity-kit": [
       "antigravity-skills-system",
@@ -109,12 +119,12 @@
       "ngac-messaging-realtime",
       "n8n"
     ],
-    "ngac-practical-implementation": [
+    "ngac-permission-graph": [
       "next-generation-access-control",
-      "ngac-database-design",
-      "ngac-microservices-architecture",
-      "ngac-permission-graph",
-      "ngac-transitive-closure"
+      "ngac-approval-workflow",
+      "ngac-organization-model",
+      "ngac-practical-implementation",
+      "ngac-security-model"
     ],
     "typescript-type-narrowing": [
       "interface-vs-type-alias",
@@ -140,6 +150,12 @@
       "attribute-based-access-control",
       "ngac-architecture"
     ],
+    "design-tokens": [
+      "dom-performance-optimization",
+      "tailwind-design-token-theming",
+      "jotai",
+      "style-dictionary"
+    ],
     "retrieval-augmented-generation": [
       "graph-rag",
       "ollama",
@@ -151,6 +167,12 @@
       "java-immutability",
       "java-virtual-threads",
       "spring-async-execution"
+    ],
+    "java-immutability": [
+      "java-concurrent-collections",
+      "spring-ioc-di",
+      "spring-validation",
+      "jackson-databind"
     ],
     "javascript-variables-and-scope": [
       "javascript-advanced-mechanisms",
@@ -164,17 +186,23 @@
       "apache-kafka",
       "kafka-connect"
     ],
+    "ngac-architecture": [
+      "next-generation-access-control",
+      "ngac-microservices-architecture",
+      "ngac-practical-implementation",
+      "ngac-security-model"
+    ],
     "ngac-database-design": [
       "next-generation-access-control",
       "ngac-permission-graph",
       "ngac-practical-implementation",
       "ngac-transitive-closure"
     ],
-    "ngac-permission-graph": [
-      "next-generation-access-control",
-      "ngac-approval-workflow",
-      "ngac-organization-model",
-      "ngac-practical-implementation"
+    "docker": [
+      "ollama",
+      "n8n",
+      "nginx",
+      "style-dictionary"
     ],
     "typescript-functions": [
       "typescript-basic-types",
@@ -197,7 +225,7 @@
       "soft-delete-anti-pattern",
       "oracle-database"
     ],
-    "ollama-vs-lmstudio-vs-vllm.md": [
+    "ollama-vs-lmstudio-vs-vllm": [
       "ollama-vs-vllm-vs-lmstudio",
       "lm-studio",
       "vllm"
@@ -206,6 +234,11 @@
       "small-llms-llama-phi-gemma",
       "ollama",
       "phi-3.5-mini-instruct"
+    ],
+    "dom-performance-optimization": [
+      "virtual-dom-vs-real-dom",
+      "design-tokens",
+      "tailwind-design-token-theming"
     ],
     "cost-based-optimizer": [
       "analytic-functions",
@@ -227,7 +260,17 @@
       "dom-performance-optimization",
       "javascript-under-the-hood"
     ],
-    "obsidian-ollama-plugins.md": [
+    "style-dictionary": [
+      "design-tokens",
+      "tailwind-design-token-theming",
+      "docker"
+    ],
+    "jotai": [
+      "design-tokens",
+      "react-router-dom",
+      "tanstack-query"
+    ],
+    "obsidian-ollama-plugins": [
       "graph-rag",
       "retrieval-augmented-generation",
       "smart-connections"
@@ -236,11 +279,6 @@
       "java-concurrency-fundamentals",
       "java-virtual-threads",
       "spring-annotations"
-    ],
-    "java-immutability": [
-      "java-concurrent-collections",
-      "spring-ioc-di",
-      "jackson-databind"
     ],
     "kafka-monitoring": [
       "kafka-administration",
@@ -262,11 +300,6 @@
       "kafka-producer",
       "apache-kafka"
     ],
-    "ngac-architecture": [
-      "next-generation-access-control",
-      "ngac-microservices-architecture",
-      "ngac-practical-implementation"
-    ],
     "ngac-security-model": [
       "next-generation-access-control",
       "ngac-architecture",
@@ -277,10 +310,10 @@
       "ngac-messaging-realtime",
       "ngac-organization-model"
     ],
-    "docker": [
-      "ollama",
-      "n8n",
-      "nginx"
+    "ngac-transitive-closure": [
+      "ngac-database-design",
+      "ngac-practical-implementation",
+      "ngac-security-model"
     ],
     "message-broker": [
       "publish-subscribe",
@@ -340,15 +373,15 @@
       "ollama-vs-vllm-vs-lmstudio",
       "ollama"
     ],
-    "small-llm-comparison-llama-phi-gemma.md": [
+    "small-llm-comparison-llama-phi-gemma": [
       "small-llms-llama-phi-gemma",
       "llama-3.2-3b-instruct"
     ],
-    "1.md": [
+    "module-01-thiết-kíp-nổ-acid-bản-chất-giao-dịch-ngân-hàng": [
       "acid-properties",
       "oracle-database"
     ],
-    "3.md": [
+    "module-03-mắt-thần-cbo-thuật-tu-tiên-bằng-dữ-liệu-sql-tuning": [
       "analytic-functions",
       "cost-based-optimizer"
     ],
@@ -360,7 +393,7 @@
       "cognitive-routing",
       "antigravity-kit"
     ],
-    "state-and-command-pattern-fintech.md": [
+    "state-and-command-pattern-fintech": [
       "command-pattern",
       "state-pattern"
     ],
@@ -368,11 +401,19 @@
       "dependency-injection",
       "generic-repository-pattern"
     ],
+    "generic-repository-pattern": [
+      "dependency-injection",
+      "generic-repository-pattern"
+    ],
+    "tailwind-design-token-theming": [
+      "design-tokens",
+      "style-dictionary"
+    ],
     "dac-vs-mac": [
       "discretionary-access-control",
       "mandatory-access-control"
     ],
-    "4.md": [
+    "module-04-thuật-ngự-thời-gian-phế-tích-xóa-mềm": [
       "flashback-data-archive",
       "soft-delete-anti-pattern"
     ],
@@ -396,15 +437,11 @@
       "kafka-administration",
       "apache-kafka"
     ],
-    "ngac-transitive-closure": [
-      "ngac-database-design",
-      "ngac-practical-implementation"
-    ],
     "graph-rag": [
       "retrieval-augmented-generation",
       "smart-connections"
     ],
-    "ollama-rag-wiki-integration.md": [
+    "ollama-rag-wiki-integration": [
       "retrieval-augmented-generation",
       "anythingllm"
     ],
@@ -420,7 +457,7 @@
       "spring-async-execution",
       "spring-ioc-di"
     ],
-    "ts-module-01.md": [
+    "ts-module-01": [
       "typescript-basic-types",
       "typescript"
     ],
@@ -436,35 +473,16 @@
       "llama-3.2-3b-instruct",
       "phi-3.5-mini-instruct"
     ],
-    "jotai": [
-      "react-router-dom",
-      "tanstack-query"
-    ],
-    "index": [
-      "overview"
-    ],
-    "bài-viết-1": [
-      "overview"
-    ],
-    "bài-viết-2": [
-      "overview"
-    ],
-    "bài-viết-3": [
-      "overview"
-    ],
     "pew-brookings-ai-adoption-demographics": [
       "ai-users-vs-non-users"
     ],
-    "ts-module-06.md": [
+    "ts-module-06": [
       "interface-vs-type-alias"
     ],
     "phi-3.5-mini-instruct": [
       "small-llms-llama-phi-gemma"
     ],
-    "dom-performance-optimization": [
-      "virtual-dom-vs-real-dom"
-    ],
-    "material-file-tree-virtual-dom-vs-real-dom-bí-mật-đằng-sau-hiệu-năng-gốc-của-rea.md": [
+    "material-file-tree-virtual-dom-vs-real-dom-bí-mật-đằng-sau-hiệu-năng-gốc-của-rea": [
       "virtual-dom-vs-real-dom"
     ],
     "authentication-vs-authorization": [
@@ -479,20 +497,8 @@
     "analytic-functions": [
       "cost-based-optimizer"
     ],
-    "0.md": [
+    "module-00-bản-vẽ-khởi-nguyên-mã-nguồn-của-dị-thường-luật-3nf": [
       "database-normalization"
-    ],
-    "generic-repository-pattern": [
-      "dependency-injection"
-    ],
-    "javascript-memory-management#heap-memory-bộ-nhớ-động": [
-      "dom-performance-optimization"
-    ],
-    "generic-repository-pattern.md": [
-      "generic-repository-pattern"
-    ],
-    "wikilinks": [
-      "graph-rag"
     ],
     "java-concurrent-collections": [
       "java-concurrency-fundamentals"
@@ -503,34 +509,25 @@
     "jackson-databind": [
       "java-generics"
     ],
-    "clean-code-javascript-patterns#xử-lý-bất-đồng-bộ-trong-vòng-lặp": [
-      "javascript-asynchronous-programming"
-    ],
-    "javascript-variables-and-scope#lexical-scope-và-closure": [
-      "javascript-memory-management"
-    ],
     "javascript-advanced-mechanisms": [
       "javascript-variables-and-scope"
     ],
-    "javascript-variables-and-scope#bản-chất-tính-bất-biến-của-const": [
-      "ngrx-state-management"
+    "ngac": [
+      "ngac-security-model"
     ],
-    "ollama-api": [
+    "ollama-overview-architecture": [
       "ollama"
     ],
-    "ollama-overview-architecture.md": [
+    "ollama-use-cases-features": [
       "ollama"
     ],
-    "ollama-use-cases-features.md": [
+    "ollama-cli-usage": [
       "ollama"
     ],
-    "ollama-cli-usage.md": [
+    "ollama-api-usage": [
       "ollama"
     ],
-    "ollama-api-usage.md": [
-      "ollama"
-    ],
-    "2.md": [
+    "module-02-hệ-thần-kinh-plsql-bộ-não-điều-phối-giao-dịch": [
       "pl-sql"
     ],
     "anythingllm": [
@@ -539,31 +536,28 @@
     "smart-connections": [
       "retrieval-augmented-generation"
     ],
-    "java-records": [
-      "spring-validation"
-    ],
     "command-pattern": [
       "state-pattern"
     ],
-    "ts-module-03.md": [
+    "ts-module-03": [
       "tsconfig"
     ],
-    "ts-module-04.md": [
+    "ts-module-04": [
       "typescript-functions"
     ],
-    "ts-module-07.md": [
+    "ts-module-07": [
       "typescript-generics"
     ],
-    "ts-module-02.md": [
+    "ts-module-02": [
       "typescript-oop"
     ],
-    "ts-module-05.md": [
+    "ts-module-05": [
       "typescript-type-narrowing"
     ],
     "typescript-basic-types": [
       "typescript"
     ],
-    "ts-summary.md": [
+    "ts-summary": [
       "typescript"
     ],
     "google-antigravity": [
@@ -572,13 +566,13 @@
     "antigravity-skills-system": [
       "antigravity-kit"
     ],
-    "ollama-ide-integration.md": [
+    "ollama-ide-integration": [
       "continue-dev"
     ],
     "nginx": [
       "docker"
     ],
-    "docker-architecture-core.md": [
+    "docker-architecture-core": [
       "docker"
     ],
     "java-generics": [
@@ -590,34 +584,31 @@
     "tanstack-query": [
       "jotai"
     ],
-    "material-atom-jotai-quản-lý-state-theo-kiểu-nguyên-tử.md": [
+    "material-atom-jotai-quản-lý-state-theo-kiểu-nguyên-tử": [
       "jotai"
     ],
-    "llama-3-2-3b-instruct-specs.md": [
+    "llama-3-2-3b-instruct-specs": [
       "llama-3.2-3b-instruct"
     ],
-    "n8n-overview-architecture": [
-      "n8n"
-    ],
-    "nginx-tong-quan-va-cau-hinh.md": [
+    "nginx-tong-quan-va-cau-hinh": [
       "nginx"
     ],
     "pl-sql": [
       "oracle-database"
     ],
-    "summary.md": [
+    "lộ-trình-oracle-database-pháo-đài-tài-chính-cyber-finance": [
       "oracle-database"
     ],
-    "phi-3-5-mini-instruct-overview.md": [
+    "phi-3-5-mini-instruct-overview": [
       "phi-3.5-mini-instruct"
     ],
     "virtual-dom-vs-real-dom": [
       "react-router-dom"
     ],
-    "material-routes-react-router-dom-định-tuyến-cho-react-app.md": [
+    "material-routes-react-router-dom-định-tuyến-cho-react-app": [
       "react-router-dom"
     ],
-    "tanstack-query-architecture.md": [
+    "tanstack-query-architecture": [
       "tanstack-query"
     ]
   }

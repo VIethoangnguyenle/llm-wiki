@@ -15,14 +15,29 @@ Workflow này quét toàn bộ wiki, đánh giá chất lượng từng bài, v�
 
 ## Bước Thực Hiện
 
+### Phase 0: Quét Cơ Học — Script Trước, Đọc Sau
+
+// turbo
+```bash
+python wiki/_build_backlinks.py --check
+```
+
+Script rebuild `_backlinks.json` rồi audit những thứ **kiểm chứng được bằng máy**:
+wikilink hỏng, bài stub (<15 dòng), bài quá dài (>120 dòng), bài link ra <2 bài khác,
+bài thiếu trong `_index.md`, raw chưa có trong `_absorb_log.json`.
+Exit code khác 0 khi còn wikilink hỏng.
+
+**Không tự đếm dòng và không tự dò link bằng mắt** — ở quy mô 100+ bài việc đó bỏ sót.
+Output của script là danh sách công việc đầu vào cho Phase 2 và Phase 3.
+
 ### Phase 1: Build Context — Bản Đồ Wiki
 
 // turbo-all
 
 1. Đọc `wiki/_index.md` — danh sách tất cả bài
-2. Đọc `wiki/_backlinks.json` — bản đồ liên kết
+2. Đọc `wiki/_backlinks.json` — bản đồ liên kết (vừa rebuild ở Phase 0)
 3. Đọc `wiki/_glossary.md` — thuật ngữ hiện có
-4. Đếm số dòng nội dung cho mỗi bài wiki (không tính frontmatter)
+4. Lấy số dòng và danh sách vấn đề cơ học từ output Phase 0
 
 Tổng hợp thành bảng overview:
 
@@ -43,6 +58,7 @@ Tổng hợp thành bảng overview:
 - **Steve Jobs test:** Bài Wikipedia về Steve Jobs dùng "Early life", "Career" — KHÔNG dùng "The Xerox Visit", "The Lisa Failure"
 
 #### 2.2 Kích thước
+Lấy từ Phase 0 — không đếm lại thủ công.
 - **Bloated** (>120 dòng nội dung): Xem xét tách sub-topic
 - **Healthy** (15-120 dòng): Giữ nguyên
 - **Stub** (<15 dòng): Cần bổ sung hoặc merge
@@ -66,7 +82,9 @@ Kiểm tra vi phạm tone Bách Khoa Toàn Thư:
 - Bullet-point có tràn lan không? (Bullet-point chỉ khi liệt kê, phần giải thích dùng đoạn văn)
 
 #### 2.6 Wikilinks
-- Broken links: `[[bài-không-tồn-tại]]` → sửa hoặc xóa
+- Broken links: lấy danh sách từ Phase 0 → sửa hoặc xóa. Với mỗi link hỏng, xác định
+  nó là **lỗi chính tả** (sửa target), **bài đã đổi tên** (trỏ lại), hay **bài còn thiếu
+  thật** (tạo bài nếu đủ chất liệu, nếu không thì gỡ link)
 - Missing links: Nhắc tới concept có bài wiki nhưng không link → thêm `[[wikilink]]`
 - Frontmatter `related:` có đầy đủ? Mỗi bài ≥2 related links
 
@@ -101,14 +119,17 @@ Với mỗi vấn đề phát hiện, tự động sửa nếu confident:
 - **Integrate** sửa đổi vào mạch viết, không tạo section mới chỉ để chứa fix
 - Nếu bài cần viết lại >50% → hỏi người dùng trước
 
-### Phase 4: Rebuild Indexes
+### Phase 4: Rebuild Indexes + Gate
 
 // turbo
 
 Sau khi sửa xong:
-1. Chạy `python wiki/_build_backlinks.py` để rebuild `_backlinks.json`
-2. Cập nhật `wiki/_index.md` nếu có thay đổi (tên bài, aliases, tóm tắt)
-3. Cập nhật `wiki/_glossary.md` nếu phát hiện thuật ngữ mới
+1. Cập nhật `wiki/_index.md` nếu có thay đổi (tên bài, aliases, tóm tắt)
+2. Cập nhật `wiki/_glossary.md` nếu phát hiện thuật ngữ mới
+3. Chạy lại `python wiki/_build_backlinks.py --check`
+
+**Gate:** cleanup chỉ được coi là xong khi script exit 0 (không còn wikilink hỏng).
+Nếu vẫn FAIL → quay lại Phase 3, không được báo cáo hoàn tất.
 
 ### Phase 5: Báo Cáo
 
@@ -132,6 +153,7 @@ Sau khi sửa xong:
 ### Thống kê sau cleanup:
 - Stub: [N] bài | Draft: [N] bài | Reviewed: [N] bài
 - Backlinks rebuilt: [X] targets, [Y] links
+- Quét cơ học: [0] link hỏng · [N] stub · [M] bài quá dài · [K] bài link ra <2
 ```
 
 ### Phase 6: Append Operations Log
