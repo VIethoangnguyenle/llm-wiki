@@ -29,4 +29,4 @@ Sức mạnh đích thực của Flashback Data Archive nằm ở khả năng t�
 Trong các hệ thống lõi đặc biệt nghiêm ngặt như Core Banking, FDA là bức tường phòng thủ cuối cùng để bảo toàn tính minh bạch trước hoạt động kiểm toán, khắc phục hậu quả thiên tai, hoặc ngăn cản sự xâm phạm cơ sở dữ liệu mà không cần phải thỏa hiệp với bất kỳ sự hao phí nào về phương diện tốc độ truyền tải thông tin.
 
 ## Nguồn Tham Khảo
-- [[raw/articles/ora/4.md]]
+- [[raw/articles/module-04-thuật-ngự-thời-gian-phế-tích-xóa-mềm.md]]

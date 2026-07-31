@@ -32,4 +32,4 @@ Việc tham chiếu chéo dữ liệu giữa nhiều hàng liền kề thông qu
 Trong hoạt động tinh chỉnh SQL (SQL Tuning), Analytic Functions được xem là đỉnh cao nghệ thuật của lập trình dữ liệu. Khi đối mặt với các nghiệp vụ yêu cầu truy vết biến động trạng thái thời gian thực hay các báo cáo xếp hạng phức tạp của Core Banking, đây là vũ khí duy nhất để loại bỏ các vòng lặp ngoài ứng dụng và các cấu trúc Self-Join gây sập CPU.
 
 ## Nguồn Tham Khảo
-- [[raw/articles/ora/3.md]]
+- [[raw/articles/module-03-mắt-thần-cbo-thuật-tu-tiên-bằng-dữ-liệu-sql-tuning.md]]

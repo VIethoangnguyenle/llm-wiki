@@ -49,6 +49,6 @@ Hệ thống hoạt động dựa trên 11 lệnh quy trình (Workflows) bắt b
 Lợi thế lớn nhất của Antigravity Kit là khả năng chuyển đổi môi trường viết mã cục bộ thành một dây chuyền tự động hóa tri thức bài bản. Nó trao quyền cho kỹ sư phần mềm đóng vai trò như một Kiến trúc sư trưởng. Hạn chế của hệ thống là việc yêu cầu người dùng phải thiết lập không gian dự án đúng chuẩn và không được đưa thư mục `.agent/` vào hệ thống kho lưu trữ bỏ qua tiêu chuẩn của hệ thống điều phối, nếu không semantic indexing engine của AI sẽ bị mất kết nối với cơ sở dữ liệu tri thức.
 
 ## Nguồn Tham Khảo
-- Dữ liệu trích xuất từ `raw/articles/1.2.md`
-- Dữ liệu trích xuất từ `raw/articles/2.3.md`
-- Dữ liệu trích xuất từ `raw/articles/summary.md`
+- Dữ liệu trích xuất từ `raw/articles/lật-tẩy-hiểu-lầm-về-const-sự-thật-về-tính-bất-biến.md`
+- Dữ liệu trích xuất từ `raw/articles/23-clean-code-các-lối-tư-duy-mới-về-vòng-lặp-for-loop.md`
+- Dữ liệu trích xuất từ `raw/misc/conversation-2026-04-23-antigravity-compilation-strategy.md`

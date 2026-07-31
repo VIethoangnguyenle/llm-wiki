@@ -36,4 +36,4 @@ Loại bỏ hoàn toàn sự phụ thuộc bắc cầu. Mọi cột thông tin p
 Trong thực tiễn vận hành các hệ thống quản trị quy mô doanh nghiệp như [[oracle-database|Oracle]], lý thuyết chuẩn hóa trên giấy phải được chuyển tải thành các thiết kế ngôn ngữ định nghĩa dữ liệu (DDL) vật lý chính xác. Các kiểu dữ liệu (`VARCHAR2` thay vì `CHAR`) và việc bắt buộc tạo chỉ mục trên các khóa ngoại (Foreign Key) được sử dụng để duy trì hiệu suất tra cứu và ngăn chặn hiện tượng tắc nghẽn khóa toàn bảng (Deadlock) giữa bảng cha và con.
 
 ## Nguồn Tham Khảo
-- [[raw/articles/ora/0.md]]
+- [[raw/articles/module-00-bản-vẽ-khởi-nguyên-mã-nguồn-của-dị-thường-luật-3nf.md]]

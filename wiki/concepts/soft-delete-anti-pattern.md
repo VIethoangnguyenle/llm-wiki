@@ -37,4 +37,4 @@ Nếu người dùng đăng ký một định danh (như Email), sau đó hủy 
 Đối với các khối dữ liệu chuyên ngành cần truy vết như ngân hàng, kỹ thuật triệt để nhất luôn là Xóa vật lý (Hard Delete) và xử lý vấn đề tra soát lịch sử thông qua các công cụ tầng lõi như [[flashback-data-archive|Flashback Data Archive]].
 
 ## Nguồn Tham Khảo
-- [[raw/articles/ora/4.md]]
+- [[raw/articles/module-04-thuật-ngự-thời-gian-phế-tích-xóa-mềm.md]]

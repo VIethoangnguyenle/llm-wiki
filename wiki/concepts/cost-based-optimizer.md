@@ -34,4 +34,4 @@ Việc hiểu CBO đòi hỏi các kỹ sư viết SQL tuân thủ những nguy�
 - Viết `RIGHT JOIN` không những không tối ưu mà còn gây khó khăn về luồng phân tích nhận thức cho con người (Logic đọc code thường tiến dần từ trái sang phải).
 
 ## Nguồn Tham Khảo
-- [[raw/articles/ora/3.md]]
+- [[raw/articles/module-03-mắt-thần-cbo-thuật-tu-tiên-bằng-dữ-liệu-sql-tuning.md]]

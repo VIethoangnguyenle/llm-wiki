@@ -37,4 +37,4 @@ Một khi hệ thống xác nhận giao dịch đã thành công, kết quả c�
 Trong các ứng dụng giao dịch tài chính quy mô lớn, việc duy trì ACID ở cường độ siêu tải (Hàng trăm nghìn Transaction Per Second) trên hạ tầng phân tán là một thách thức kỹ thuật rất lớn. Việc lựa chọn công nghệ hỗ trợ tốt ACID là quyết định sống còn để duy trì uy tín của các định chế tín dụng.
 
 ## Nguồn Tham Khảo
-- [[raw/articles/ora/1.md]]
+- [[raw/articles/module-01-thiết-kíp-nổ-acid-bản-chất-giao-dịch-ngân-hàng.md]]

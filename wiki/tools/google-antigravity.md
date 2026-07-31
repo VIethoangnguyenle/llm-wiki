@@ -40,5 +40,5 @@ Sức mạnh của nền tảng được cấp bởi lõi kép của mô hình G
 Google Antigravity cung cấp nền tảng vật lý và môi trường thực thi điện toán. Khi kết hợp với bộ công cụ mã nguồn mở [[antigravity-kit]], nó hình thành một hệ thống phát triển phần mềm toàn diện. Quá trình vận hành của nền tảng thường đi kèm với việc áp dụng [[socratic-gate-protocol]] để đảm bảo chất lượng đầu ra và ngăn chặn các ảo giác kiến trúc.
 
 ## Nguồn Tham Khảo
-- Dữ liệu trích xuất từ `raw/articles/1.1.md`
-- Dữ liệu trích xuất từ `raw/articles/summary.md`
+- Dữ liệu trích xuất từ `raw/articles/var-let-const-kẻ-thù-thầm-lặng-và-những-vệ-binh-của-scope.md`
+- Dữ liệu trích xuất từ `raw/misc/conversation-2026-04-23-antigravity-compilation-strategy.md`

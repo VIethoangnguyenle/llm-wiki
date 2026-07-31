@@ -32,5 +32,5 @@ Oracle Database được trang bị một hệ sinh thái các công nghệ đ�
 - **Tính cô lập dữ liệu ưu việt:** Kiến trúc Multi-Version Concurrency Control (MVCC) sử dụng Undo Segment giúp cung cấp khả năng đọc dữ liệu không bị chặn bởi các tiến trình ghi, một điểm khác biệt cốt lõi so với kỹ thuật VACUUM của các cơ sở dữ liệu khác.
 
 ## Nguồn Tham Khảo
-- [[raw/articles/ora/summary.md]]
-- [[raw/articles/ora/1.md]]
+- [[raw/articles/lộ-trình-oracle-database-pháo-đài-tài-chính-cyber-finance.md]]
+- [[raw/articles/module-01-thiết-kíp-nổ-acid-bản-chất-giao-dịch-ngân-hàng.md]]

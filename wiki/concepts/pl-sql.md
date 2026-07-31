@@ -32,4 +32,4 @@ Package là kiến trúc tổ chức cao nhất, "bọc thép" toàn bộ các F
 Trong kiến trúc ngân hàng (Core Banking), PL/SQL Package thường được tinh chỉnh bằng các chiến lược lưu trữ (Pinning) vào bộ nhớ Shared Pool để chống lại sự loại bỏ của hệ thống quản lý bộ nhớ LRU khi tải lớn. Song song đó, lập trình viên phải đối mặt với nguy cơ dữ liệu chéo quyền (do Connection Pooling tái sử dụng phiên làm việc qua Session State) và thiết kế hệ thống báo cáo lỗi có chủ đích thông qua khối cấu trúc Exception Handling (`RAISE_APPLICATION_ERROR`).
 
 ## Nguồn Tham Khảo
-- [[raw/articles/ora/2.md]]
+- [[raw/articles/module-02-hệ-thần-kinh-plsql-bộ-não-điều-phối-giao-dịch.md]]
