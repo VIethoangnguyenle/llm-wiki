@@ -6,6 +6,10 @@
 .obsidian/workspace-mobile.json
 .obsidian/plugins/*/data.json
 
+# Vendored plugin dependencies (not our source)
+.obsidian/plugins/*/lib*/
+.obsidian/plugins/*/node_modules/
+
 # Temporary files
 *.tmp
 full.txt
