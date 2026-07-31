@@ -7,7 +7,7 @@ aliases: [spring-validation, bean-validation, jakarta-bean-validation]
 status: draft
 related:
   - "[[spring-ioc-di]]"
-  - "[[java-records]]"
+  - "[[java-immutability]]"
 summary: "Cơ chế kiểm duyệt dữ liệu trong Spring Boot, kết hợp giữa Jakarta Bean Validation và Hibernate Validator theo mô hình phòng thủ đa tầng."
 ---
 
@@ -39,7 +39,7 @@ Trong các hệ thống phân tán, Spring Validation thường được triển
 
 ## Liên Hệ Và Ứng Dụng Thực Tiễn
 
-Việc thiết kế hệ thống DTO kết hợp với Spring Validation đóng vai trò quan trọng trong việc bảo vệ tính toàn vẹn của dữ liệu. Giới kiến trúc sư phần mềm thường ưu tiên phân tách DTO (ví dụ: `CreateUserRequest` và `UpdateUserRequest`) thay vì lạm dụng Validation Groups nhằm tuân thủ nguyên tắc Single Responsibility. Ngoài ra, việc sử dụng [[java-records]] làm DTO kết hợp với Spring Validation đang trở thành tiêu chuẩn mới, đem lại tính bất biến (Immutability) và độ an toàn luồng (Thread-safety) tự nhiên.
+Việc thiết kế hệ thống DTO kết hợp với Spring Validation đóng vai trò quan trọng trong việc bảo vệ tính toàn vẹn của dữ liệu. Giới kiến trúc sư phần mềm thường ưu tiên phân tách DTO (ví dụ: `CreateUserRequest` và `UpdateUserRequest`) thay vì lạm dụng Validation Groups nhằm tuân thủ nguyên tắc Single Responsibility. Ngoài ra, việc sử dụng [[java-immutability|Java Records]] làm DTO kết hợp với Spring Validation đang trở thành tiêu chuẩn mới, đem lại tính bất biến (Immutability) và độ an toàn luồng (Thread-safety) tự nhiên.
 
 ## Nguồn Tham Khảo
 - `raw/papers/làm-chủ-spring-validation-chiến-lược-phòng-thủ-đa-tầng.md`

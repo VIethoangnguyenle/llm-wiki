@@ -11,7 +11,6 @@ related:
   - "[[lm-studio]]"
   - "[[docker]]"
   - "[[retrieval-augmented-generation]]"
-  - "[[ollama-api]]"
   - "[[llama-3.2-3b-instruct]]"
 summary: "Framework mã nguồn mở quản lý và chạy mô hình ngôn ngữ lớn (LLM) cục bộ với kiến trúc client-server tối ưu."
 ---
