@@ -1,325 +1,525 @@
 {
   "last_updated": "2026-05-19",
   "sources": {
-    "raw/ngac/ngac_system/approval-flow.md": {
-      "absorbed_at": "2026-05-04",
-      "wiki_articles": ["ngac-approval-workflow"]
-    },
-    "raw/ngac/ngac_system/chat-flow.md": {
-      "absorbed_at": "2026-05-04",
-      "wiki_articles": ["ngac-messaging-realtime"]
-    },
-    "raw/ngac/ngac_system/ngac-flow.md": {
-      "absorbed_at": "2026-05-04",
-      "wiki_articles": ["ngac-permission-graph"]
-    },
-    "raw/ngac/ngac_system/ngac-model.md": {
-      "absorbed_at": "2026-05-04",
-      "wiki_articles": ["ngac-permission-graph"]
-    },
-    "raw/ngac/ngac_system/organization-structure.md": {
-      "absorbed_at": "2026-05-04",
-      "wiki_articles": ["ngac-organization-model"]
-    },
-    "raw/ngac/ngac_system/overview.md": {
-      "absorbed_at": "2026-05-04",
-      "wiki_articles": ["ngac-microservices-architecture"]
-    },
-    "raw/ngac/ngac_system/realtime-flow.md": {
-      "absorbed_at": "2026-05-04",
-      "wiki_articles": ["ngac-messaging-realtime"]
-    },
-    "raw/ngac/ngac_system/system-architecture.md": {
-      "absorbed_at": "2026-05-04",
-      "wiki_articles": ["ngac-microservices-architecture"]
-    },
-    "raw/ngac/ngac_system/user-lifecycle.md": {
-      "absorbed_at": "2026-05-04",
-      "wiki_articles": ["ngac-organization-model"]
-    },
-    "raw/articles/1.1.md": {
+    "raw/articles/13-bộ-nhớ-javascript-stack-tối-ưu-heap-mở-rộng.md": {
       "absorbed_at": "2026-04-23",
-      "wiki_articles": ["google-antigravity", "antigravity-kit"]
+      "wiki_articles": [
+        "antigravity-skills-system"
+      ]
     },
-    "raw/articles/1.2.md": {
+    "raw/articles/199-javascript-under-the-hood-call-stack-event-loop-và-execution-context.md": {
       "absorbed_at": "2026-04-23",
-      "wiki_articles": ["antigravity-kit", "antigravity-skills-system"]
+      "wiki_articles": [
+        "javascript-under-the-hood"
+      ]
     },
-    "raw/articles/1.3.md": {
+    "raw/articles/21-clean-code-thoát-kỏi-nhấn-chìm-của-if-else-hell.md": {
       "absorbed_at": "2026-04-23",
-      "wiki_articles": ["antigravity-skills-system"]
+      "wiki_articles": [
+        "socratic-gate-protocol"
+      ]
     },
-    "raw/articles/2.1.md": {
+    "raw/articles/22-cấu-trúc-function-và-bí-ẩn-của-scope.md": {
       "absorbed_at": "2026-04-23",
-      "wiki_articles": ["socratic-gate-protocol"]
+      "wiki_articles": [
+        "cognitive-routing"
+      ]
     },
-    "raw/articles/2.2.md": {
+    "raw/articles/23-clean-code-các-lối-tư-duy-mới-về-vòng-lặp-for-loop.md": {
       "absorbed_at": "2026-04-23",
-      "wiki_articles": ["cognitive-routing"]
+      "wiki_articles": [
+        "sequential-multi-domain-execution"
+      ]
     },
-    "raw/articles/2.3.md": {
+    "raw/articles/31-dom-performance-warfare-cuộc-chiến-tối-ưu-tốc-độ-giao-diện.md": {
       "absorbed_at": "2026-04-23",
-      "wiki_articles": ["sequential-multi-domain-execution"]
+      "wiki_articles": [
+        "dom-performance-optimization"
+      ]
     },
-    "raw/articles/summary.md": {
+    "raw/articles/41-javascript-asynchronous-quest-sứ-mệnh-chinh-phục-bất-đồng-bộ.md": {
       "absorbed_at": "2026-04-23",
-      "wiki_articles": ["google-antigravity", "antigravity-kit", "socratic-gate-protocol", "antigravity-skills-system", "cognitive-routing", "sequential-multi-domain-execution"]
+      "wiki_articles": [
+        "javascript-asynchronous-programming"
+      ]
+    },
+    "raw/articles/42-rxjs-làm-chủ-luồng-dữ-liệu-bất-đồng-bộ.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": [
+        "rxjs-reactive-programming"
+      ]
+    },
+    "raw/articles/43-rxjs-mastery-làm-chủ-đường-ống-kì-diệu-map-và-tap.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": [
+        "rxjs-reactive-programming"
+      ]
+    },
+    "raw/articles/51-modern-web-làm-chủ-state-management-với-ngrx-trong-angular.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": [
+        "ngrx-state-management"
+      ]
+    },
+    "raw/articles/52-khía-cạnh-cấp-cao-lạc-vào-hố-sâu-bí-ẩn-của-javascript.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": [
+        "javascript-advanced-mechanisms"
+      ]
     },
     "raw/articles/ABACvsRBAC.md": {
       "absorbed_at": "2026-04-23",
-      "wiki_articles": ["abac-vs-rbac"]
+      "wiki_articles": [
+        "abac-vs-rbac"
+      ],
+      "raw_missing": true,
+      "note": "nguồn gốc không còn trong repo và không có trong git history"
     },
     "raw/articles/ArchitecturesandFunctionalComponents.md": {
       "absorbed_at": "2026-04-23",
-      "wiki_articles": ["abac-architecture", "next-generation-access-control"]
+      "wiki_articles": [
+        "abac-architecture",
+        "next-generation-access-control"
+      ],
+      "raw_missing": true,
+      "note": "nguồn gốc không còn trong repo và không có trong git history"
     },
     "raw/articles/AttributeInfluencingFactors.md": {
       "absorbed_at": "2026-04-23",
-      "wiki_articles": ["abac-attribute-management"]
+      "wiki_articles": [
+        "abac-attribute-management"
+      ],
+      "raw_missing": true,
+      "note": "nguồn gốc không còn trong repo và không có trong git history"
     },
     "raw/articles/HowABACWork.md": {
       "absorbed_at": "2026-04-23",
-      "wiki_articles": ["attribute-based-access-control"]
+      "wiki_articles": [
+        "attribute-based-access-control"
+      ],
+      "raw_missing": true,
+      "note": "nguồn gốc không còn trong repo và không có trong git history"
     },
     "raw/articles/LogicalFormulaandEnumerated.md": {
       "absorbed_at": "2026-04-23",
-      "wiki_articles": ["abac-policy-models"]
+      "wiki_articles": [
+        "abac-policy-models"
+      ],
+      "raw_missing": true,
+      "note": "nguồn gốc không còn trong repo và không có trong git history"
     },
     "raw/articles/ModelsAndPolicies.md": {
       "absorbed_at": "2026-04-23",
-      "wiki_articles": ["dac-vs-mac", "access-control-models-vs-policies"]
+      "wiki_articles": [
+        "dac-vs-mac",
+        "access-control-models-vs-policies"
+      ]
     },
     "raw/articles/NGAC.md": {
       "absorbed_at": "2026-04-23",
-      "wiki_articles": ["next-generation-access-control"]
+      "wiki_articles": [
+        "next-generation-access-control"
+      ],
+      "raw_missing": true,
+      "note": "nguồn gốc không còn trong repo và không có trong git history"
     },
     "raw/articles/PolicyEnforcement.md": {
       "absorbed_at": "2026-04-23",
-      "wiki_articles": ["access-control-policy-enforcement", "authentication-vs-authorization"]
+      "wiki_articles": [
+        "access-control-policy-enforcement",
+        "authentication-vs-authorization"
+      ]
     },
     "raw/articles/Terminology.md": {
       "absorbed_at": "2026-04-23",
-      "wiki_articles": ["access-control-entities", "authentication-vs-authorization"]
+      "wiki_articles": [
+        "access-control-entities",
+        "authentication-vs-authorization"
+      ]
     },
     "raw/articles/Using.md": {
       "absorbed_at": "2026-04-23",
-      "wiki_articles": ["attribute-based-access-control"]
+      "wiki_articles": [
+        "attribute-based-access-control"
+      ],
+      "raw_missing": true,
+      "note": "nguồn gốc không còn trong repo và không có trong git history"
     },
     "raw/articles/dac.md": {
       "absorbed_at": "2026-04-23",
-      "wiki_articles": ["discretionary-access-control", "dac-vs-mac"]
+      "wiki_articles": [
+        "discretionary-access-control",
+        "dac-vs-mac"
+      ]
+    },
+    "raw/articles/dependency-injection-in-oop.md": {
+      "absorbed_at": "2026-04-24",
+      "wiki_articles": [
+        "dependency-injection"
+      ]
+    },
+    "raw/articles/design-token-dtcg-spec-2025.md": {
+      "absorbed_at": "2026-05-19",
+      "wiki_articles": [
+        "design-tokens"
+      ]
+    },
+    "raw/articles/design-token-system-contentful.md": {
+      "absorbed_at": "2026-05-19",
+      "wiki_articles": [
+        "design-tokens",
+        "style-dictionary"
+      ]
+    },
+    "raw/articles/design-token-tailwind-theming-lloyd-richards.md": {
+      "absorbed_at": "2026-05-19",
+      "wiki_articles": [
+        "tailwind-design-token-theming"
+      ]
+    },
+    "raw/articles/design-token-toolchain-figma-2025.md": {
+      "absorbed_at": "2026-05-19",
+      "wiki_articles": [
+        "style-dictionary"
+      ]
+    },
+    "raw/articles/docker-architecture-core.md": {
+      "absorbed_at": "2026-05-04",
+      "wiki_articles": [
+        "docker"
+      ]
+    },
+    "raw/articles/generic-repository-pattern.md": {
+      "absorbed_at": "2026-04-24",
+      "wiki_articles": [
+        "generic-repository-pattern"
+      ]
+    },
+    "raw/articles/hbs-jagged-frontier-ai-productivity.md": {
+      "absorbed_at": "2026-05-04",
+      "wiki_articles": [
+        "jagged-technological-frontier",
+        "skill-leveling-effect"
+      ]
     },
     "raw/articles/intro.md": {
       "absorbed_at": "2026-04-23",
-      "wiki_articles": ["attribute-based-access-control"]
+      "wiki_articles": [
+        "attribute-based-access-control"
+      ],
+      "raw_missing": true,
+      "note": "nguồn gốc không còn trong repo và không có trong git history"
     },
-    "raw/articles/mac.md": {
+    "raw/articles/javascript-mastery-hành-trình-từ-cốt-lõi-đến-mở-rộng.md": {
       "absorbed_at": "2026-04-23",
-      "wiki_articles": ["mandatory-access-control", "dac-vs-mac"]
-    },
-    "raw/misc/var-let-const-kẻ-thù-thầm-lặng-và-những-vệ-binh-của-scope.md": {
-      "absorbed_at": "2026-04-23",
-      "wiki_articles": ["javascript-variables-and-scope"]
-    },
-    "raw/misc/lật-tẩy-hiểu-lầm-về-const-sự-thật-về-tính-bất-biến.md": {
-      "absorbed_at": "2026-04-23",
-      "wiki_articles": ["javascript-variables-and-scope"]
-    },
-    "raw/misc/22-cấu-trúc-function-và-bí-ẩn-của-scope.md": {
-      "absorbed_at": "2026-04-23",
-      "wiki_articles": ["javascript-variables-and-scope"]
-    },
-    "raw/misc/13-bộ-nhớ-javascript-stack-tối-ưu-heap-mở-rộng.md": {
-      "absorbed_at": "2026-04-23",
-      "wiki_articles": ["javascript-memory-management"]
-    },
-    "raw/misc/199-javascript-under-the-hood-call-stack-event-loop-và-execution-context.md": {
-      "absorbed_at": "2026-04-23",
-      "wiki_articles": ["javascript-under-the-hood"]
-    },
-    "raw/misc/21-clean-code-thoát-kỏi-nhấn-chìm-của-if-else-hell.md": {
-      "absorbed_at": "2026-04-23",
-      "wiki_articles": ["clean-code-javascript-patterns"]
-    },
-    "raw/misc/23-clean-code-các-lối-tư-duy-mới-về-vòng-lặp-for-loop.md": {
-      "absorbed_at": "2026-04-23",
-      "wiki_articles": ["clean-code-javascript-patterns"]
-    },
-    "raw/misc/31-dom-performance-warfare-cuộc-chiến-tối-ưu-tốc-độ-giao-diện.md": {
-      "absorbed_at": "2026-04-23",
-      "wiki_articles": ["dom-performance-optimization"]
-    },
-    "raw/misc/41-javascript-asynchronous-quest-sứ-mệnh-chinh-phục-bất-đồng-bộ.md": {
-      "absorbed_at": "2026-04-23",
-      "wiki_articles": ["javascript-asynchronous-programming"]
-    },
-    "raw/misc/42-rxjs-làm-chủ-luồng-dữ-liệu-bất-đồng-bộ.md": {
-      "absorbed_at": "2026-04-23",
-      "wiki_articles": ["rxjs-reactive-programming"]
-    },
-    "raw/misc/43-rxjs-mastery-làm-chủ-đường-ống-kì-diệu-map-và-tap.md": {
-      "absorbed_at": "2026-04-23",
-      "wiki_articles": ["rxjs-reactive-programming"]
-    },
-    "raw/misc/51-modern-web-làm-chủ-state-management-với-ngrx-trong-angular.md": {
-      "absorbed_at": "2026-04-23",
-      "wiki_articles": ["ngrx-state-management"]
-    },
-    "raw/misc/52-khía-cạnh-cấp-cao-lạc-vào-hố-sâu-bí-ẩn-của-javascript.md": {
-      "absorbed_at": "2026-04-23",
-      "wiki_articles": ["javascript-advanced-mechanisms"]
-    },
-    "raw/misc/javascript-mastery-hành-trình-từ-cốt-lõi-đến-mở-rộng.md": {
-      "absorbed_at": "2026-04-23",
-      "wiki_articles": ["javascript-advanced-mechanisms"]
+      "wiki_articles": [
+        "javascript-advanced-mechanisms"
+      ]
     },
     "raw/articles/kafka-vs-rabbitmq.md": {
       "absorbed_at": "2026-04-23",
-      "wiki_articles": ["kafka-vs-rabbitmq", "apache-kafka", "rabbitmq", "message-broker", "publish-subscribe"]
+      "wiki_articles": [
+        "kafka-vs-rabbitmq",
+        "apache-kafka",
+        "rabbitmq",
+        "message-broker",
+        "publish-subscribe"
+      ]
     },
-    "raw/articles/ora/0.md": {
+    "raw/articles/llama-3-2-3b-instruct-specs.md": {
+      "absorbed_at": "2026-05-05",
+      "wiki_articles": [
+        "llama-3.2-3b-instruct"
+      ]
+    },
+    "raw/articles/lật-tẩy-hiểu-lầm-về-const-sự-thật-về-tính-bất-biến.md": {
       "absorbed_at": "2026-04-23",
-      "wiki_articles": ["database-normalization"]
+      "wiki_articles": [
+        "antigravity-kit",
+        "antigravity-skills-system"
+      ]
     },
-    "raw/articles/ora/1.md": {
+    "raw/articles/lộ-trình-oracle-database-pháo-đài-tài-chính-cyber-finance.md": {
       "absorbed_at": "2026-04-23",
-      "wiki_articles": ["acid-properties", "oracle-database"]
+      "wiki_articles": [
+        "oracle-database"
+      ]
     },
-    "raw/articles/ora/2.md": {
+    "raw/articles/mac.md": {
       "absorbed_at": "2026-04-23",
-      "wiki_articles": ["pl-sql"]
-    },
-    "raw/articles/ora/3.md": {
-      "absorbed_at": "2026-04-23",
-      "wiki_articles": ["cost-based-optimizer", "analytic-functions"]
-    },
-    "raw/articles/ora/4.md": {
-      "absorbed_at": "2026-04-23",
-      "wiki_articles": ["soft-delete-anti-pattern", "flashback-data-archive"]
-    },
-    "raw/articles/ora/summary.md": {
-      "absorbed_at": "2026-04-23",
-      "wiki_articles": ["oracle-database"]
-    },
-    "raw/articles/ts-summary.md": {
-      "absorbed_at": "2026-04-23",
-      "wiki_articles": ["typescript", "typescript-basic-types", "typescript-oop", "tsconfig", "typescript-functions", "typescript-type-narrowing", "interface-vs-type-alias", "typescript-generics"]
-    },
-    "raw/articles/ts-module-01.md": {
-      "absorbed_at": "2026-04-23",
-      "wiki_articles": ["typescript-basic-types"]
-    },
-    "raw/articles/ts-module-02.md": {
-      "absorbed_at": "2026-04-23",
-      "wiki_articles": ["typescript-oop"]
-    },
-    "raw/articles/ts-module-03.md": {
-      "absorbed_at": "2026-04-23",
-      "wiki_articles": ["tsconfig"]
-    },
-    "raw/articles/ts-module-04.md": {
-      "absorbed_at": "2026-04-23",
-      "wiki_articles": ["typescript-functions"]
-    },
-    "raw/articles/ts-module-05.md": {
-      "absorbed_at": "2026-04-23",
-      "wiki_articles": ["typescript-type-narrowing"]
-    },
-    "raw/articles/ts-module-06.md": {
-      "absorbed_at": "2026-04-23",
-      "wiki_articles": ["interface-vs-type-alias"]
-    },
-    "raw/articles/ts-module-07.md": {
-      "absorbed_at": "2026-04-23",
-      "wiki_articles": ["typescript-generics"]
-    },
-    "raw/articles/material-routes-react-router-dom-định-tuyến-cho-react-app.md": {
-      "absorbed_at": "2026-04-24",
-      "wiki_articles": ["react-router-dom"]
+      "wiki_articles": [
+        "mandatory-access-control",
+        "dac-vs-mac"
+      ]
     },
     "raw/articles/material-atom-jotai-quản-lý-state-theo-kiểu-nguyên-tử.md": {
       "absorbed_at": "2026-04-24",
-      "wiki_articles": ["jotai"]
+      "wiki_articles": [
+        "jotai"
+      ]
     },
     "raw/articles/material-file-tree-virtual-dom-vs-real-dom-bí-mật-đằng-sau-hiệu-năng-gốc-của-rea.md": {
       "absorbed_at": "2026-04-24",
-      "wiki_articles": ["virtual-dom-vs-real-dom"]
+      "wiki_articles": [
+        "virtual-dom-vs-real-dom"
+      ]
     },
     "raw/articles/material-react-react-với-typescript-series-overview.md": {
       "absorbed_at": "2026-04-24",
       "wiki_articles": []
     },
-    "raw/papers/làm-chủ-spring-validation-chiến-lược-phòng-thủ-đa-tầng.md": {
+    "raw/articles/material-routes-react-router-dom-định-tuyến-cho-react-app.md": {
       "absorbed_at": "2026-04-24",
-      "wiki_articles": ["spring-validation"]
+      "wiki_articles": [
+        "react-router-dom"
+      ]
     },
-    "raw/papers/nhập-môn-spring-boot-bí-kíp-nấu-code-chuẩn-5-sao.md": {
-      "absorbed_at": "2026-04-24",
-      "wiki_articles": ["spring-ioc-di"]
+    "raw/articles/module-00-bản-vẽ-khởi-nguyên-mã-nguồn-của-dị-thường-luật-3nf.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": [
+        "database-normalization"
+      ]
     },
-    "raw/papers/spring-framework-làm-chủ-custom-annotation-metaprogramming.md": {
-      "absorbed_at": "2026-04-24",
-      "wiki_articles": ["spring-annotations"]
+    "raw/articles/module-01-thiết-kíp-nổ-acid-bản-chất-giao-dịch-ngân-hàng.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": [
+        "acid-properties",
+        "oracle-database"
+      ]
     },
-    "raw/papers/atomic-concurrency-patterns-trong-javatối-ưu-hóa-hiệu-năng-đa-luồng-từ-jvm-đến-s.md": {
-      "absorbed_at": "2026-04-24",
-      "wiki_articles": ["java-concurrency-fundamentals"]
+    "raw/articles/module-02-hệ-thần-kinh-plsql-bộ-não-điều-phối-giao-dịch.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": [
+        "pl-sql"
+      ]
     },
-    "raw/papers/jackson.md": {
-      "absorbed_at": "2026-04-24",
-      "wiki_articles": ["jackson-databind", "java-generics"]
+    "raw/articles/module-03-mắt-thần-cbo-thuật-tu-tiên-bằng-dữ-liệu-sql-tuning.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": [
+        "cost-based-optimizer",
+        "analytic-functions"
+      ]
     },
-    "raw/papers/java-generics-bi-kip-tran-phai.md": {
-      "absorbed_at": "2026-04-24",
-      "wiki_articles": ["java-generics"]
+    "raw/articles/module-04-thuật-ngự-thời-gian-phế-tích-xóa-mềm.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": [
+        "soft-delete-anti-pattern",
+        "flashback-data-archive"
+      ]
     },
-    "raw/papers/multithreading-concurrency-trong-spring-boot-từ-cơ-bản-đến-virtual-threads.md": {
-      "absorbed_at": "2026-04-24",
-      "wiki_articles": ["spring-async-execution", "java-virtual-threads", "java-concurrency-fundamentals"]
+    "raw/articles/n8n-overview-architecture.md": {
+      "absorbed_at": "2026-05-04",
+      "wiki_articles": [
+        "n8n"
+      ]
     },
-    "raw/papers/mutable-vs-immutabletác-động-kiến-trúc-trong-java-spring-từ-cơ-chế-jvm-đến-thiết.md": {
-      "absorbed_at": "2026-04-24",
-      "wiki_articles": ["java-immutability", "java-concurrent-collections", "spring-ioc-di"]
-    },
-    "raw/papers/đa-luồng-chân-kinh.md": {
-      "absorbed_at": "2026-04-24",
-      "wiki_articles": ["java-concurrency-fundamentals", "java-concurrent-collections", "java-immutability", "spring-ioc-di"]
+    "raw/articles/ngac-materialized-denormalize.md": {
+      "absorbed_at": "2026-05-04",
+      "wiki_articles": [
+        "ngac-transitive-closure",
+        "ngac-database-design",
+        "ngac-practical-implementation"
+      ]
     },
     "raw/articles/nginx-tong-quan-va-cau-hinh.md": {
       "absorbed_at": "2026-04-24",
-      "wiki_articles": ["nginx"]
+      "wiki_articles": [
+        "nginx"
+      ]
     },
-    "raw/articles/tu-rung-ram-den-lego-nghe-thuat-thiet-ke-phan-mem.md": {
-      "absorbed_at": "2026-04-24",
-      "wiki_articles": ["composition-vs-inheritance"]
+    "raw/articles/obsidian-ollama-plugins.md": {
+      "absorbed_at": "2026-05-05",
+      "wiki_articles": [
+        "graph-rag",
+        "smart-connections"
+      ]
     },
-    "raw/articles/generic-repository-pattern.md": {
-      "absorbed_at": "2026-04-24",
-      "wiki_articles": ["generic-repository-pattern"]
+    "raw/articles/ollama-api-usage.md": {
+      "absorbed_at": "2026-05-05",
+      "wiki_articles": [
+        "ollama"
+      ]
     },
-    "raw/articles/dependency-injection-in-oop.md": {
-      "absorbed_at": "2026-04-24",
-      "wiki_articles": ["dependency-injection"]
+    "raw/articles/ollama-cli-usage.md": {
+      "absorbed_at": "2026-05-05",
+      "wiki_articles": [
+        "ollama"
+      ]
     },
-    "raw/articles/state-and-command-pattern-fintech.md": {
-      "absorbed_at": "2026-04-24",
-      "wiki_articles": ["state-pattern", "command-pattern"]
+    "raw/articles/ollama-ide-integration.md": {
+      "absorbed_at": "2026-05-05",
+      "wiki_articles": [
+        "continue-dev",
+        "ollama"
+      ]
     },
-    "raw/articles/tanstack-query-architecture.md": {
-      "absorbed_at": "2026-04-29",
-      "wiki_articles": ["tanstack-query"]
+    "raw/articles/ollama-overview-architecture.md": {
+      "absorbed_at": "2026-05-05",
+      "wiki_articles": [
+        "ollama"
+      ]
     },
-    "raw/articles/hbs-jagged-frontier-ai-productivity.md": {
-      "absorbed_at": "2026-05-04",
-      "wiki_articles": ["jagged-technological-frontier", "skill-leveling-effect"]
+    "raw/articles/ollama-rag-wiki-integration.md": {
+      "absorbed_at": "2026-05-05",
+      "wiki_articles": [
+        "retrieval-augmented-generation",
+        "anythingllm"
+      ]
+    },
+    "raw/articles/ollama-use-cases-features.md": {
+      "absorbed_at": "2026-05-05",
+      "wiki_articles": [
+        "ollama"
+      ]
+    },
+    "raw/articles/ollama-vs-lmstudio-vs-vllm.md": {
+      "absorbed_at": "2026-05-05",
+      "wiki_articles": [
+        "vllm",
+        "lm-studio",
+        "ollama-vs-vllm-vs-lmstudio"
+      ]
     },
     "raw/articles/pew-brookings-ai-adoption-demographics.md": {
       "absorbed_at": "2026-05-04",
-      "wiki_articles": ["ai-users-vs-non-users"]
+      "wiki_articles": [
+        "ai-users-vs-non-users"
+      ]
+    },
+    "raw/articles/phi-3-5-mini-instruct-overview.md": {
+      "absorbed_at": "2026-05-05",
+      "wiki_articles": [
+        "phi-3.5-mini-instruct"
+      ]
+    },
+    "raw/articles/shadcn-ui-theming-official.md": {
+      "absorbed_at": "2026-05-19",
+      "wiki_articles": [
+        "tailwind-design-token-theming"
+      ]
+    },
+    "raw/articles/small-llm-comparison-llama-phi-gemma.md": {
+      "absorbed_at": "2026-05-05",
+      "wiki_articles": [
+        "llama-3.2-3b-instruct",
+        "small-llms-llama-phi-gemma"
+      ]
     },
     "raw/articles/stanford-nber-ai-users-vs-non-users.md": {
       "absorbed_at": "2026-05-04",
-      "wiki_articles": ["ai-users-vs-non-users"]
+      "wiki_articles": [
+        "ai-users-vs-non-users"
+      ]
+    },
+    "raw/articles/state-and-command-pattern-fintech.md": {
+      "absorbed_at": "2026-04-24",
+      "wiki_articles": [
+        "state-pattern",
+        "command-pattern"
+      ]
+    },
+    "raw/articles/tailwind-v4-theme-directive-docs.md": {
+      "absorbed_at": "2026-05-19",
+      "wiki_articles": [
+        "tailwind-design-token-theming",
+        "design-tokens",
+        "style-dictionary"
+      ]
+    },
+    "raw/articles/tanstack-query-architecture.md": {
+      "absorbed_at": "2026-04-29",
+      "wiki_articles": [
+        "tanstack-query"
+      ]
+    },
+    "raw/articles/ts-module-01.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": [
+        "typescript-basic-types"
+      ]
+    },
+    "raw/articles/ts-module-02.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": [
+        "typescript-oop"
+      ]
+    },
+    "raw/articles/ts-module-03.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": [
+        "tsconfig"
+      ]
+    },
+    "raw/articles/ts-module-04.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": [
+        "typescript-functions"
+      ]
+    },
+    "raw/articles/ts-module-05.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": [
+        "typescript-type-narrowing"
+      ]
+    },
+    "raw/articles/ts-module-06.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": [
+        "interface-vs-type-alias"
+      ]
+    },
+    "raw/articles/ts-module-07.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": [
+        "typescript-generics"
+      ]
+    },
+    "raw/articles/ts-summary.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": [
+        "typescript",
+        "typescript-basic-types",
+        "typescript-oop",
+        "tsconfig",
+        "typescript-functions",
+        "typescript-type-narrowing",
+        "interface-vs-type-alias",
+        "typescript-generics"
+      ]
+    },
+    "raw/articles/tu-rung-ram-den-lego-nghe-thuat-thiet-ke-phan-mem.md": {
+      "absorbed_at": "2026-04-24",
+      "wiki_articles": [
+        "composition-vs-inheritance"
+      ]
+    },
+    "raw/articles/var-let-const-kẻ-thù-thầm-lặng-và-những-vệ-binh-của-scope.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": [
+        "google-antigravity",
+        "antigravity-kit"
+      ]
+    },
+    "raw/misc/conversation-2026-04-23-antigravity-compilation-strategy.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": [
+        "antigravity-kit",
+        "antigravity-skills-system",
+        "clean-code-javascript-patterns",
+        "cognitive-routing",
+        "dom-performance-optimization",
+        "google-antigravity",
+        "javascript-advanced-mechanisms",
+        "javascript-asynchronous-programming",
+        "javascript-memory-management",
+        "javascript-under-the-hood",
+        "javascript-variables-and-scope",
+        "ngrx-state-management",
+        "rxjs-reactive-programming",
+        "sequential-multi-domain-execution",
+        "socratic-gate-protocol"
+      ],
+      "reconstructed": true
     },
     "raw/ngac/ngac.md": {
       "absorbed_at": "2026-05-04",
@@ -354,173 +554,234 @@
         "ngac-permission-graph"
       ]
     },
-    "raw/articles/ngac-materialized-denormalize.md": {
+    "raw/ngac/ngac_system/approval-flow.md": {
       "absorbed_at": "2026-05-04",
       "wiki_articles": [
-        "ngac-transitive-closure",
-        "ngac-database-design",
-        "ngac-practical-implementation"
+        "ngac-approval-workflow"
       ]
     },
-    "raw/articles/n8n-overview-architecture.md": {
+    "raw/ngac/ngac_system/chat-flow.md": {
       "absorbed_at": "2026-05-04",
       "wiki_articles": [
-        "n8n"
+        "ngac-messaging-realtime"
       ]
     },
-    "raw/articles/docker-architecture-core.md": {
+    "raw/ngac/ngac_system/ngac-flow.md": {
       "absorbed_at": "2026-05-04",
       "wiki_articles": [
-        "docker"
+        "ngac-permission-graph"
       ]
     },
-    "raw/articles/ollama-overview-architecture.md": {
-      "absorbed_at": "2026-05-05",
+    "raw/ngac/ngac_system/ngac-model.md": {
+      "absorbed_at": "2026-05-04",
       "wiki_articles": [
-        "ollama"
+        "ngac-permission-graph"
       ]
     },
-    "raw/articles/ollama-use-cases-features.md": {
-      "absorbed_at": "2026-05-05",
+    "raw/ngac/ngac_system/organization-structure.md": {
+      "absorbed_at": "2026-05-04",
       "wiki_articles": [
-        "ollama"
+        "ngac-organization-model"
       ]
     },
-    "raw/articles/ollama-vs-lmstudio-vs-vllm.md": {
-      "absorbed_at": "2026-05-05",
+    "raw/ngac/ngac_system/overview.md": {
+      "absorbed_at": "2026-05-04",
       "wiki_articles": [
-        "vllm",
-        "lm-studio",
-        "ollama-vs-vllm-vs-lmstudio"
+        "ngac-microservices-architecture"
       ]
     },
-    "raw/articles/ollama-cli-usage.md": {
-      "absorbed_at": "2026-05-05",
+    "raw/ngac/ngac_system/realtime-flow.md": {
+      "absorbed_at": "2026-05-04",
       "wiki_articles": [
-        "ollama"
+        "ngac-messaging-realtime"
       ]
     },
-    "raw/articles/ollama-api-usage.md": {
-      "absorbed_at": "2026-05-05",
+    "raw/ngac/ngac_system/system-architecture.md": {
+      "absorbed_at": "2026-05-04",
       "wiki_articles": [
-        "ollama"
+        "ngac-microservices-architecture"
       ]
     },
-    "raw/articles/ollama-ide-integration.md": {
-      "absorbed_at": "2026-05-05",
+    "raw/ngac/ngac_system/user-lifecycle.md": {
+      "absorbed_at": "2026-05-04",
       "wiki_articles": [
-        "continue-dev",
-        "ollama"
+        "ngac-organization-model"
       ]
     },
-    "raw/articles/ollama-rag-wiki-integration.md": {
-      "absorbed_at": "2026-05-05",
+    "raw/papers/atomic-concurrency-patterns-trong-javatối-ưu-hóa-hiệu-năng-đa-luồng-từ-jvm-đến-s.md": {
+      "absorbed_at": "2026-04-24",
       "wiki_articles": [
-        "retrieval-augmented-generation",
-        "anythingllm"
+        "java-concurrency-fundamentals"
       ]
     },
-    "raw/articles/obsidian-ollama-plugins.md": {
-      "absorbed_at": "2026-05-05",
+    "raw/papers/jackson.md": {
+      "absorbed_at": "2026-04-24",
       "wiki_articles": [
-        "graph-rag",
-        "smart-connections"
+        "jackson-databind",
+        "java-generics"
       ]
     },
-    "raw/articles/llama-3-2-3b-instruct-specs.md": {
-      "absorbed_at": "2026-05-05",
+    "raw/papers/java-generics-bi-kip-tran-phai.md": {
+      "absorbed_at": "2026-04-24",
       "wiki_articles": [
-        "llama-3.2-3b-instruct"
+        "java-generics"
       ]
-    },
-    "raw/articles/small-llm-comparison-llama-phi-gemma.md": {
-      "absorbed_at": "2026-05-05",
-      "wiki_articles": [
-        "llama-3.2-3b-instruct",
-        "small-llms-llama-phi-gemma"
-      ]
-    },
-    "raw/articles/phi-3-5-mini-instruct-overview.md": {
-      "absorbed_at": "2026-05-05",
-      "wiki_articles": [
-        "phi-3.5-mini-instruct"
-      ]
-    },
-    "raw/papers/kafka-definitive-guide/kafka-ch05-internals.md": {
-      "absorbed_at": "2026-05-08",
-      "wiki_articles": ["kafka-replication", "apache-kafka"]
-    },
-    "raw/papers/kafka-definitive-guide/kafka-ch06-reliable-delivery.md": {
-      "absorbed_at": "2026-05-08",
-      "wiki_articles": ["kafka-replication", "apache-kafka"]
-    },
-    "raw/papers/kafka-definitive-guide/kafka-ch07-data-pipelines.md": {
-      "absorbed_at": "2026-05-08",
-      "wiki_articles": ["kafka-connect", "apache-kafka"]
-    },
-    "raw/papers/kafka-definitive-guide/kafka-ch11-stream-processing.md": {
-      "absorbed_at": "2026-05-08",
-      "wiki_articles": ["kafka-streams", "apache-kafka"]
-    },
-    "raw/papers/kafka-definitive-guide/kafka-ch01-kafka-primer.md": {
-      "absorbed_at": "2026-05-08",
-      "wiki_articles": ["apache-kafka"]
-    },
-    "raw/papers/kafka-definitive-guide/kafka-ch02-installing-kafka.md": {
-      "absorbed_at": "2026-05-08",
-      "wiki_articles": ["apache-kafka"]
-    },
-    "raw/papers/kafka-definitive-guide/kafka-ch03-producers.md": {
-      "absorbed_at": "2026-05-08",
-      "wiki_articles": ["kafka-producer", "apache-kafka"]
-    },
-    "raw/papers/kafka-definitive-guide/kafka-ch04-consumers.md": {
-      "absorbed_at": "2026-05-08",
-      "wiki_articles": ["kafka-consumer", "apache-kafka"]
-    },
-    "raw/papers/kafka-definitive-guide/kafka-ch08-cross-cluster.md": {
-      "absorbed_at": "2026-05-08",
-      "wiki_articles": ["kafka-mirrormaker", "apache-kafka"]
-    },
-    "raw/papers/kafka-definitive-guide/kafka-ch09-administering.md": {
-      "absorbed_at": "2026-05-08",
-      "wiki_articles": ["kafka-administration", "apache-kafka"]
-    },
-    "raw/papers/kafka-definitive-guide/kafka-ch10-monitoring.md": {
-      "absorbed_at": "2026-05-08",
-      "wiki_articles": ["kafka-monitoring", "apache-kafka"]
-    },
-    "raw/papers/kafka-definitive-guide/kafka-preface-and-ch00.md": {
-      "absorbed_at": "2026-05-08",
-      "wiki_articles": ["apache-kafka"]
     },
     "raw/papers/kafka-definitive-guide/kafka-appendix.md": {
       "absorbed_at": "2026-05-08",
-      "wiki_articles": ["apache-kafka"]
+      "wiki_articles": [
+        "apache-kafka"
+      ],
+      "raw_missing": true,
+      "note": "nguồn gốc không còn trong repo và không có trong git history"
     },
-    "raw/articles/design-token-system-contentful.md": {
-      "absorbed_at": "2026-05-19",
-      "wiki_articles": ["design-tokens", "style-dictionary"]
+    "raw/papers/kafka-definitive-guide/kafka-ch01-kafka-primer.md": {
+      "absorbed_at": "2026-05-08",
+      "wiki_articles": [
+        "apache-kafka"
+      ],
+      "raw_missing": true,
+      "note": "nguồn gốc không còn trong repo và không có trong git history"
     },
-    "raw/articles/design-token-dtcg-spec-2025.md": {
-      "absorbed_at": "2026-05-19",
-      "wiki_articles": ["design-tokens"]
+    "raw/papers/kafka-definitive-guide/kafka-ch02-installing-kafka.md": {
+      "absorbed_at": "2026-05-08",
+      "wiki_articles": [
+        "apache-kafka"
+      ],
+      "raw_missing": true,
+      "note": "nguồn gốc không còn trong repo và không có trong git history"
     },
-    "raw/articles/design-token-toolchain-figma-2025.md": {
-      "absorbed_at": "2026-05-19",
-      "wiki_articles": ["style-dictionary"]
+    "raw/papers/kafka-definitive-guide/kafka-ch03-producers.md": {
+      "absorbed_at": "2026-05-08",
+      "wiki_articles": [
+        "kafka-producer",
+        "apache-kafka"
+      ],
+      "raw_missing": true,
+      "note": "nguồn gốc không còn trong repo và không có trong git history"
     },
-    "raw/articles/design-token-tailwind-theming-lloyd-richards.md": {
-      "absorbed_at": "2026-05-19",
-      "wiki_articles": ["tailwind-design-token-theming"]
+    "raw/papers/kafka-definitive-guide/kafka-ch04-consumers.md": {
+      "absorbed_at": "2026-05-08",
+      "wiki_articles": [
+        "kafka-consumer",
+        "apache-kafka"
+      ],
+      "raw_missing": true,
+      "note": "nguồn gốc không còn trong repo và không có trong git history"
     },
-    "raw/articles/tailwind-v4-theme-directive-docs.md": {
-      "absorbed_at": "2026-05-19",
-      "wiki_articles": ["tailwind-design-token-theming", "design-tokens", "style-dictionary"]
+    "raw/papers/kafka-definitive-guide/kafka-ch05-internals.md": {
+      "absorbed_at": "2026-05-08",
+      "wiki_articles": [
+        "kafka-replication",
+        "apache-kafka"
+      ],
+      "raw_missing": true,
+      "note": "nguồn gốc không còn trong repo và không có trong git history"
     },
-    "raw/articles/shadcn-ui-theming-official.md": {
-      "absorbed_at": "2026-05-19",
-      "wiki_articles": ["tailwind-design-token-theming"]
+    "raw/papers/kafka-definitive-guide/kafka-ch06-reliable-delivery.md": {
+      "absorbed_at": "2026-05-08",
+      "wiki_articles": [
+        "kafka-replication",
+        "apache-kafka"
+      ],
+      "raw_missing": true,
+      "note": "nguồn gốc không còn trong repo và không có trong git history"
+    },
+    "raw/papers/kafka-definitive-guide/kafka-ch07-data-pipelines.md": {
+      "absorbed_at": "2026-05-08",
+      "wiki_articles": [
+        "kafka-connect",
+        "apache-kafka"
+      ],
+      "raw_missing": true,
+      "note": "nguồn gốc không còn trong repo và không có trong git history"
+    },
+    "raw/papers/kafka-definitive-guide/kafka-ch08-cross-cluster.md": {
+      "absorbed_at": "2026-05-08",
+      "wiki_articles": [
+        "kafka-mirrormaker",
+        "apache-kafka"
+      ],
+      "raw_missing": true,
+      "note": "nguồn gốc không còn trong repo và không có trong git history"
+    },
+    "raw/papers/kafka-definitive-guide/kafka-ch09-administering.md": {
+      "absorbed_at": "2026-05-08",
+      "wiki_articles": [
+        "kafka-administration",
+        "apache-kafka"
+      ],
+      "raw_missing": true,
+      "note": "nguồn gốc không còn trong repo và không có trong git history"
+    },
+    "raw/papers/kafka-definitive-guide/kafka-ch10-monitoring.md": {
+      "absorbed_at": "2026-05-08",
+      "wiki_articles": [
+        "kafka-monitoring",
+        "apache-kafka"
+      ],
+      "raw_missing": true,
+      "note": "nguồn gốc không còn trong repo và không có trong git history"
+    },
+    "raw/papers/kafka-definitive-guide/kafka-ch11-stream-processing.md": {
+      "absorbed_at": "2026-05-08",
+      "wiki_articles": [
+        "kafka-streams",
+        "apache-kafka"
+      ],
+      "raw_missing": true,
+      "note": "nguồn gốc không còn trong repo và không có trong git history"
+    },
+    "raw/papers/kafka-definitive-guide/kafka-preface-and-ch00.md": {
+      "absorbed_at": "2026-05-08",
+      "wiki_articles": [
+        "apache-kafka"
+      ],
+      "raw_missing": true,
+      "note": "nguồn gốc không còn trong repo và không có trong git history"
+    },
+    "raw/papers/làm-chủ-spring-validation-chiến-lược-phòng-thủ-đa-tầng.md": {
+      "absorbed_at": "2026-04-24",
+      "wiki_articles": [
+        "spring-validation"
+      ]
+    },
+    "raw/papers/multithreading-concurrency-trong-spring-boot-từ-cơ-bản-đến-virtual-threads.md": {
+      "absorbed_at": "2026-04-24",
+      "wiki_articles": [
+        "spring-async-execution",
+        "java-virtual-threads",
+        "java-concurrency-fundamentals"
+      ]
+    },
+    "raw/papers/mutable-vs-immutabletác-động-kiến-trúc-trong-java-spring-từ-cơ-chế-jvm-đến-thiết.md": {
+      "absorbed_at": "2026-04-24",
+      "wiki_articles": [
+        "java-immutability",
+        "java-concurrent-collections",
+        "spring-ioc-di"
+      ]
+    },
+    "raw/papers/nhập-môn-spring-boot-bí-kíp-nấu-code-chuẩn-5-sao.md": {
+      "absorbed_at": "2026-04-24",
+      "wiki_articles": [
+        "spring-ioc-di"
+      ]
+    },
+    "raw/papers/spring-framework-làm-chủ-custom-annotation-metaprogramming.md": {
+      "absorbed_at": "2026-04-24",
+      "wiki_articles": [
+        "spring-annotations"
+      ]
+    },
+    "raw/papers/đa-luồng-chân-kinh.md": {
+      "absorbed_at": "2026-04-24",
+      "wiki_articles": [
+        "java-concurrency-fundamentals",
+        "java-concurrent-collections",
+        "java-immutability",
+        "spring-ioc-di"
+      ]
     }
   }
 }

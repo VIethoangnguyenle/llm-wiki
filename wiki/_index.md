@@ -14,7 +14,7 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 
 ---
 
-## Concepts (71 articles)
+## Concepts (75 articles)
 
 | Article | Aliases | Summary |
 |---------|---------|---------|
@@ -92,7 +92,7 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | [[kafka-mirrormaker]] | MirrorMaker, Cross-Cluster Mirroring | Cơ chế sao chép dữ liệu giữa các cụm Kafka — bao gồm kiến trúc MirrorMaker, các mẫu triển khai đa cụm và chiến lược failover. |
 | [[kafka-administration]] | Quản trị Kafka, Kafka Admin Tools | Tổng hợp công cụ và quy trình quản trị cụm Apache Kafka — bao gồm quản lý topic, partition reassignment, consumer group và các thao tác khẩn cấp. |
 | [[kafka-monitoring]] | Giám sát Kafka, Kafka Metrics | Hệ thống giám sát Apache Kafka — bao gồm các chỉ số JMX quan trọng của broker, giám sát consumer lag và chiến lược end-to-end monitoring. |
-## Tools (22 articles)
+## Tools (21 articles)
 
 | Article | Aliases | Summary |
 |---------|---------|---------|
@@ -143,119 +143,122 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | [[small-llms-llama-phi-gemma]] | Llama 3.2 vs Phi 3.5 vs Gemma 2 | Phân tích và đối chiếu hiệu năng của ba mô hình ngôn ngữ nhỏ gọn hàng đầu: Llama 3.2 3B, Phi-3.5 Mini và Gemma 2 2B. |
 ---
 
-## Raw Sources (73 documents)
+## Raw Sources (91 documents, 21 nguồn đã mất)
 
-| Source | Type | Date Ingested |
-|--------|------|---------------|
-| `raw/articles/1.1.md` | Article | 2026-04-23 |
-| `raw/articles/1.2.md` | Article | 2026-04-23 |
-| `raw/articles/1.3.md` | Article | 2026-04-23 |
-| `raw/articles/2.1.md` | Article | 2026-04-23 |
-| `raw/articles/2.2.md` | Article | 2026-04-23 |
-| `raw/articles/2.3.md` | Article | 2026-04-23 |
-| `raw/articles/ABACvsRBAC.md` | Article | 2026-04-23 |
-| `raw/articles/ArchitecturesandFunctionalComponents.md` | Article | 2026-04-23 |
-| `raw/articles/AttributeInfluencingFactors.md` | Article | 2026-04-23 |
-| `raw/articles/HowABACWork.md` | Article | 2026-04-23 |
-| `raw/articles/LogicalFormulaandEnumerated.md` | Article | 2026-04-23 |
-| `raw/articles/ModelsAndPolicies.md` | Article | 2026-04-23 |
-| `raw/articles/NGAC.md` | Article | 2026-04-23 |
-| `raw/articles/PolicyEnforcement.md` | Article | 2026-04-23 |
-| `raw/articles/Terminology.md` | Article | 2026-04-23 |
-| `raw/articles/Using.md` | Article | 2026-04-23 |
-| `raw/articles/dac.md` | Article | 2026-04-23 |
-| `raw/articles/intro.md` | Article | 2026-04-23 |
-| `raw/articles/mac.md` | Article | 2026-04-23 |
-| `raw/articles/summary.md` | Article | 2026-04-23 |
-| `raw/misc/var-let-const-kẻ-thù-thầm-lặng-và-những-vệ-binh-của-scope.md` | Article | 2026-04-23 |
-| `raw/misc/lật-tẩy-hiểu-lầm-về-const-sự-thật-về-tính-bất-biến.md` | Article | 2026-04-23 |
-| `raw/misc/22-cấu-trúc-function-và-bí-ẩn-của-scope.md` | Article | 2026-04-23 |
-| `raw/misc/13-bộ-nhớ-javascript-stack-tối-ưu-heap-mở-rộng.md` | Article | 2026-04-23 |
-| `raw/misc/199-javascript-under-the-hood-call-stack-event-loop-và-execution-context.md` | Article | 2026-04-23 |
-| `raw/misc/21-clean-code-thoát-kỏi-nhấn-chìm-của-if-else-hell.md` | Article | 2026-04-23 |
-| `raw/misc/23-clean-code-các-lối-tư-duy-mới-về-vòng-lặp-for-loop.md` | Article | 2026-04-23 |
-| `raw/misc/31-dom-performance-warfare-cuộc-chiến-tối-ưu-tốc-độ-giao-diện.md` | Article | 2026-04-23 |
-| `raw/misc/41-javascript-asynchronous-quest-sứ-mệnh-chinh-phục-bất-đồng-bộ.md` | Article | 2026-04-23 |
-| `raw/misc/42-rxjs-làm-chủ-luồng-dữ-liệu-bất-đồng-bộ.md` | Article | 2026-04-23 |
-| `raw/misc/43-rxjs-mastery-làm-chủ-đường-ống-kì-diệu-map-và-tap.md` | Article | 2026-04-23 |
-| `raw/misc/51-modern-web-làm-chủ-state-management-với-ngrx-trong-angular.md` | Article | 2026-04-23 |
-| `raw/misc/52-khía-cạnh-cấp-cao-lạc-vào-hố-sâu-bí-ẩn-của-javascript.md` | Article | 2026-04-23 |
-| [[raw/misc/javascript-mastery-hành-trình-từ-cốt-lõi-đến-mở-rộng.md]] | Article | 2026-04-23 |
-| [[raw/articles/kafka-vs-rabbitmq.md]] | Article | 2026-04-23 |
-| [[raw/articles/ora/0.md]] | Article | 2026-04-23 |
-| [[raw/articles/ora/1.md]] | Article | 2026-04-23 |
-| [[raw/articles/ora/2.md]] | Article | 2026-04-23 |
-| [[raw/articles/ora/3.md]] | Article | 2026-04-23 |
-| [[raw/articles/ora/4.md]] | Article | 2026-04-23 |
-| [[raw/articles/ora/summary.md]] | Article | 2026-04-23 |
-| `raw/articles/ts-summary.md` | Article | 2026-04-23 |
-| `raw/articles/ts-module-01.md` | Article | 2026-04-23 |
-| `raw/articles/ts-module-02.md` | Article | 2026-04-23 |
-| `raw/articles/ts-module-03.md` | Article | 2026-04-23 |
-| `raw/articles/ts-module-04.md` | Article | 2026-04-23 |
-| `raw/articles/ts-module-05.md` | Article | 2026-04-23 |
-| `raw/articles/ts-module-06.md` | Article | 2026-04-23 |
-| `raw/articles/ts-module-07.md` | Article | 2026-04-23 |
-| `raw/articles/material-routes-react-router-dom-định-tuyến-cho-react-app.md` | Article | 2026-04-24 |
-| `raw/articles/material-atom-jotai-quản-lý-state-theo-kiểu-nguyên-tử.md` | Article | 2026-04-24 |
-| `raw/articles/material-file-tree-virtual-dom-vs-real-dom-bí-mật-đằng-sau-hiệu-năng-gốc-của-rea.md` | Article | 2026-04-24 |
-| `raw/articles/material-react-react-với-typescript-series-overview.md` | Article | 2026-04-24 |
-| `raw/papers/làm-chủ-spring-validation-chiến-lược-phòng-thủ-đa-tầng.md` | Article | 2026-04-24 |
-| `raw/papers/nhập-môn-spring-boot-bí-kíp-nấu-code-chuẩn-5-sao.md` | Article | 2026-04-24 |
-| `raw/papers/spring-framework-làm-chủ-custom-annotation-metaprogramming.md` | Article | 2026-04-24 |
-| `raw/papers/atomic-concurrency-patterns-trong-javatối-ưu-hóa-hiệu-năng-đa-luồng-từ-jvm-đến-s.md` | Article | 2026-04-24 |
-| `raw/papers/jackson.md` | Article | 2026-04-24 |
-| `raw/papers/java-generics-bi-kip-tran-phai.md` | Article | 2026-04-24 |
-| `raw/papers/multithreading-concurrency-trong-spring-boot-từ-cơ-bản-đến-virtual-threads.md` | Article | 2026-04-24 |
-| `raw/papers/mutable-vs-immutabletác-động-kiến-trúc-trong-java-spring-từ-cơ-chế-jvm-đến-thiết.md` | Article | 2026-04-24 |
-| `raw/papers/đa-luồng-chân-kinh.md` | Article | 2026-04-24 |
-| `raw/articles/nginx-tong-quan-va-cau-hinh.md` | Article | 2026-04-24 |
-| `raw/articles/tu-rung-ram-den-lego-nghe-thuat-thiet-ke-phan-mem.md` | Article | 2026-04-24 |
-| `raw/articles/generic-repository-pattern.md` | Article | 2026-04-24 |
-| `raw/articles/dependency-injection-in-oop.md` | Article | 2026-04-24 |
-| `raw/articles/state-and-command-pattern-fintech.md` | Article | 2026-04-24 |
-| [[raw/articles/tanstack-query-architecture.md]] | Article | 2026-04-29 |
-| [[raw/articles/hbs-jagged-frontier-ai-productivity.md]] | Article | 2026-05-04 |
-| [[raw/articles/pew-brookings-ai-adoption-demographics.md]] | Article | 2026-05-04 |
-| [[raw/articles/stanford-nber-ai-users-vs-non-users.md]] | Article | 2026-05-04 |
-| `raw/ngac/ngac.md` | Article | 2026-05-04 |
-| `raw/ngac/ngac_in_real_project/ngac-practical-guide.md` | Article | 2026-05-04 |
-| `raw/ngac/ngac_in_real_project/permission-check-queries.md` | Article | 2026-05-04 |
-| `raw/ngac/ngac_in_real_project/permission-db-mapping.md` | Article | 2026-05-04 |
-| `raw/ngac/ngac_in_real_project/permission-graph.md` | Article | 2026-05-04 |
-| `raw/articles/n8n-overview-architecture.md` | Article | 2026-05-04 |
-| `raw/articles/docker-architecture-core.md` | Article | 2026-05-04 |
-| `raw/articles/ollama-overview-architecture.md` | Article | 2026-05-05 |
-| `raw/articles/ollama-use-cases-features.md` | Article | 2026-05-05 |
-| `raw/articles/ollama-vs-lmstudio-vs-vllm.md` | Article | 2026-05-05 |
-| `raw/articles/ollama-cli-usage.md` | Article | 2026-05-05 |
-| `raw/articles/ollama-api-usage.md` | Article | 2026-05-05 |
-| `raw/articles/ollama-ide-integration.md` | Article | 2026-05-05 |
-| `raw/articles/ollama-rag-wiki-integration.md` | Article | 2026-05-05 |
-| `raw/articles/obsidian-ollama-plugins.md` | Article | 2026-05-05 |
-| `raw/articles/llama-3-2-3b-instruct-specs.md` | Article | 2026-05-05 |
-| `raw/articles/small-llm-comparison-llama-phi-gemma.md` | Article | 2026-05-05 |
-| `raw/articles/phi-3-5-mini-instruct-overview.md` | Article | 2026-05-05 |
-| `raw/papers/kafka-definitive-guide/kafka-ch01-kafka-primer.md` | Paper | 2026-05-08 |
-| `raw/papers/kafka-definitive-guide/kafka-ch02-installing-kafka.md` | Paper | 2026-05-08 |
-| `raw/papers/kafka-definitive-guide/kafka-ch03-producers.md` | Paper | 2026-05-08 |
-| `raw/papers/kafka-definitive-guide/kafka-ch04-consumers.md` | Paper | 2026-05-08 |
-| `raw/papers/kafka-definitive-guide/kafka-ch05-internals.md` | Paper | 2026-05-08 |
-| `raw/papers/kafka-definitive-guide/kafka-ch06-reliable-delivery.md` | Paper | 2026-05-08 |
-| `raw/papers/kafka-definitive-guide/kafka-ch07-data-pipelines.md` | Paper | 2026-05-08 |
-| `raw/papers/kafka-definitive-guide/kafka-ch08-cross-cluster.md` | Paper | 2026-05-08 |
-| `raw/papers/kafka-definitive-guide/kafka-ch09-administering.md` | Paper | 2026-05-08 |
-| `raw/papers/kafka-definitive-guide/kafka-ch10-monitoring.md` | Paper | 2026-05-08 |
-| `raw/papers/kafka-definitive-guide/kafka-ch11-stream-processing.md` | Paper | 2026-05-08 |
-| `raw/papers/kafka-definitive-guide/kafka-preface-and-ch00.md` | Paper | 2026-05-08 |
-| `raw/papers/kafka-definitive-guide/kafka-appendix.md` | Paper | 2026-05-08 |
-| `raw/articles/design-token-system-contentful.md` | Article | 2026-05-19 |
-| `raw/articles/design-token-dtcg-spec-2025.md` | Article | 2026-05-19 |
-| `raw/articles/design-token-toolchain-figma-2025.md` | Article | 2026-05-19 |
-| `raw/articles/design-token-tailwind-theming-lloyd-richards.md` | Article | 2026-05-19 |
-| `raw/articles/tailwind-v4-theme-directive-docs.md` | Article | 2026-05-19 |
-| `raw/articles/shadcn-ui-theming-official.md` | Article | 2026-05-19 |
----
+| Source | Type | Absorbed | Note |
+|--------|------|----------|------|
+| `raw/articles/13-bộ-nhớ-javascript-stack-tối-ưu-heap-mở-rộng.md` | Article | 2026-04-23 | |
+| `raw/articles/199-javascript-under-the-hood-call-stack-event-loop-và-execution-context.md` | Article | 2026-04-23 | |
+| `raw/articles/21-clean-code-thoát-kỏi-nhấn-chìm-của-if-else-hell.md` | Article | 2026-04-23 | |
+| `raw/articles/22-cấu-trúc-function-và-bí-ẩn-của-scope.md` | Article | 2026-04-23 | |
+| `raw/articles/23-clean-code-các-lối-tư-duy-mới-về-vòng-lặp-for-loop.md` | Article | 2026-04-23 | |
+| `raw/articles/31-dom-performance-warfare-cuộc-chiến-tối-ưu-tốc-độ-giao-diện.md` | Article | 2026-04-23 | |
+| `raw/articles/41-javascript-asynchronous-quest-sứ-mệnh-chinh-phục-bất-đồng-bộ.md` | Article | 2026-04-23 | |
+| `raw/articles/42-rxjs-làm-chủ-luồng-dữ-liệu-bất-đồng-bộ.md` | Article | 2026-04-23 | |
+| `raw/articles/43-rxjs-mastery-làm-chủ-đường-ống-kì-diệu-map-và-tap.md` | Article | 2026-04-23 | |
+| `raw/articles/51-modern-web-làm-chủ-state-management-với-ngrx-trong-angular.md` | Article | 2026-04-23 | |
+| `raw/articles/52-khía-cạnh-cấp-cao-lạc-vào-hố-sâu-bí-ẩn-của-javascript.md` | Article | 2026-04-23 | |
+| `raw/articles/ModelsAndPolicies.md` | Article | 2026-04-23 | |
+| `raw/articles/PolicyEnforcement.md` | Article | 2026-04-23 | |
+| `raw/articles/Terminology.md` | Article | 2026-04-23 | |
+| `raw/articles/dac.md` | Article | 2026-04-23 | |
+| `raw/articles/dependency-injection-in-oop.md` | Article | 2026-04-24 | |
+| `raw/articles/design-token-dtcg-spec-2025.md` | Article | 2026-05-19 | |
+| `raw/articles/design-token-system-contentful.md` | Article | 2026-05-19 | |
+| `raw/articles/design-token-tailwind-theming-lloyd-richards.md` | Article | 2026-05-19 | |
+| `raw/articles/design-token-toolchain-figma-2025.md` | Article | 2026-05-19 | |
+| `raw/articles/docker-architecture-core.md` | Article | 2026-05-04 | |
+| `raw/articles/generic-repository-pattern.md` | Article | 2026-04-24 | |
+| `raw/articles/hbs-jagged-frontier-ai-productivity.md` | Article | 2026-05-04 | |
+| `raw/articles/javascript-mastery-hành-trình-từ-cốt-lõi-đến-mở-rộng.md` | Article | 2026-04-23 | |
+| `raw/articles/kafka-vs-rabbitmq.md` | Article | 2026-04-23 | |
+| `raw/articles/llama-3-2-3b-instruct-specs.md` | Article | 2026-05-05 | |
+| `raw/articles/lật-tẩy-hiểu-lầm-về-const-sự-thật-về-tính-bất-biến.md` | Article | 2026-04-23 | |
+| `raw/articles/lộ-trình-oracle-database-pháo-đài-tài-chính-cyber-finance.md` | Article | 2026-04-23 | |
+| `raw/articles/mac.md` | Article | 2026-04-23 | |
+| `raw/articles/material-atom-jotai-quản-lý-state-theo-kiểu-nguyên-tử.md` | Article | 2026-04-24 | |
+| `raw/articles/material-file-tree-virtual-dom-vs-real-dom-bí-mật-đằng-sau-hiệu-năng-gốc-của-rea.md` | Article | 2026-04-24 | |
+| `raw/articles/material-react-react-với-typescript-series-overview.md` | Article | 2026-04-24 | |
+| `raw/articles/material-routes-react-router-dom-định-tuyến-cho-react-app.md` | Article | 2026-04-24 | |
+| `raw/articles/module-00-bản-vẽ-khởi-nguyên-mã-nguồn-của-dị-thường-luật-3nf.md` | Article | 2026-04-23 | |
+| `raw/articles/module-01-thiết-kíp-nổ-acid-bản-chất-giao-dịch-ngân-hàng.md` | Article | 2026-04-23 | |
+| `raw/articles/module-02-hệ-thần-kinh-plsql-bộ-não-điều-phối-giao-dịch.md` | Article | 2026-04-23 | |
+| `raw/articles/module-03-mắt-thần-cbo-thuật-tu-tiên-bằng-dữ-liệu-sql-tuning.md` | Article | 2026-04-23 | |
+| `raw/articles/module-04-thuật-ngự-thời-gian-phế-tích-xóa-mềm.md` | Article | 2026-04-23 | |
+| `raw/articles/n8n-overview-architecture.md` | Article | 2026-05-04 | |
+| `raw/articles/ngac-materialized-denormalize.md` | Article | 2026-05-04 | |
+| `raw/articles/nginx-tong-quan-va-cau-hinh.md` | Article | 2026-04-24 | |
+| `raw/articles/obsidian-ollama-plugins.md` | Article | 2026-05-05 | |
+| `raw/articles/ollama-api-usage.md` | Article | 2026-05-05 | |
+| `raw/articles/ollama-cli-usage.md` | Article | 2026-05-05 | |
+| `raw/articles/ollama-ide-integration.md` | Article | 2026-05-05 | |
+| `raw/articles/ollama-overview-architecture.md` | Article | 2026-05-05 | |
+| `raw/articles/ollama-rag-wiki-integration.md` | Article | 2026-05-05 | |
+| `raw/articles/ollama-use-cases-features.md` | Article | 2026-05-05 | |
+| `raw/articles/ollama-vs-lmstudio-vs-vllm.md` | Article | 2026-05-05 | |
+| `raw/articles/pew-brookings-ai-adoption-demographics.md` | Article | 2026-05-04 | |
+| `raw/articles/phi-3-5-mini-instruct-overview.md` | Article | 2026-05-05 | |
+| `raw/articles/shadcn-ui-theming-official.md` | Article | 2026-05-19 | |
+| `raw/articles/small-llm-comparison-llama-phi-gemma.md` | Article | 2026-05-05 | |
+| `raw/articles/stanford-nber-ai-users-vs-non-users.md` | Article | 2026-05-04 | |
+| `raw/articles/state-and-command-pattern-fintech.md` | Article | 2026-04-24 | |
+| `raw/articles/tailwind-v4-theme-directive-docs.md` | Article | 2026-05-19 | |
+| `raw/articles/tanstack-query-architecture.md` | Article | 2026-04-29 | |
+| `raw/articles/ts-module-01.md` | Article | 2026-04-23 | |
+| `raw/articles/ts-module-02.md` | Article | 2026-04-23 | |
+| `raw/articles/ts-module-03.md` | Article | 2026-04-23 | |
+| `raw/articles/ts-module-04.md` | Article | 2026-04-23 | |
+| `raw/articles/ts-module-05.md` | Article | 2026-04-23 | |
+| `raw/articles/ts-module-06.md` | Article | 2026-04-23 | |
+| `raw/articles/ts-module-07.md` | Article | 2026-04-23 | |
+| `raw/articles/ts-summary.md` | Article | 2026-04-23 | |
+| `raw/articles/tu-rung-ram-den-lego-nghe-thuat-thiet-ke-phan-mem.md` | Article | 2026-04-24 | |
+| `raw/articles/var-let-const-kẻ-thù-thầm-lặng-và-những-vệ-binh-của-scope.md` | Article | 2026-04-23 | |
+| `raw/misc/conversation-2026-04-23-antigravity-compilation-strategy.md` | Misc | 2026-04-23 | |
+| `raw/ngac/ngac.md` | Dossier | 2026-05-04 | |
+| `raw/ngac/ngac_in_real_project/ngac-practical-guide.md` | Dossier | 2026-05-04 | |
+| `raw/ngac/ngac_in_real_project/permission-check-queries.md` | Dossier | 2026-05-04 | |
+| `raw/ngac/ngac_in_real_project/permission-db-mapping.md` | Dossier | 2026-05-04 | |
+| `raw/ngac/ngac_in_real_project/permission-graph.md` | Dossier | 2026-05-04 | |
+| `raw/ngac/ngac_system/approval-flow.md` | Dossier | 2026-05-04 | |
+| `raw/ngac/ngac_system/chat-flow.md` | Dossier | 2026-05-04 | |
+| `raw/ngac/ngac_system/ngac-flow.md` | Dossier | 2026-05-04 | |
+| `raw/ngac/ngac_system/ngac-model.md` | Dossier | 2026-05-04 | |
+| `raw/ngac/ngac_system/organization-structure.md` | Dossier | 2026-05-04 | |
+| `raw/ngac/ngac_system/overview.md` | Dossier | 2026-05-04 | |
+| `raw/ngac/ngac_system/realtime-flow.md` | Dossier | 2026-05-04 | |
+| `raw/ngac/ngac_system/system-architecture.md` | Dossier | 2026-05-04 | |
+| `raw/ngac/ngac_system/user-lifecycle.md` | Dossier | 2026-05-04 | |
+| `raw/papers/atomic-concurrency-patterns-trong-javatối-ưu-hóa-hiệu-năng-đa-luồng-từ-jvm-đến-s.md` | Paper | 2026-04-24 | |
+| `raw/papers/jackson.md` | Paper | 2026-04-24 | |
+| `raw/papers/java-generics-bi-kip-tran-phai.md` | Paper | 2026-04-24 | |
+| `raw/papers/làm-chủ-spring-validation-chiến-lược-phòng-thủ-đa-tầng.md` | Paper | 2026-04-24 | |
+| `raw/papers/multithreading-concurrency-trong-spring-boot-từ-cơ-bản-đến-virtual-threads.md` | Paper | 2026-04-24 | |
+| `raw/papers/mutable-vs-immutabletác-động-kiến-trúc-trong-java-spring-từ-cơ-chế-jvm-đến-thiết.md` | Paper | 2026-04-24 | |
+| `raw/papers/nhập-môn-spring-boot-bí-kíp-nấu-code-chuẩn-5-sao.md` | Paper | 2026-04-24 | |
+| `raw/papers/spring-framework-làm-chủ-custom-annotation-metaprogramming.md` | Paper | 2026-04-24 | |
+| `raw/papers/đa-luồng-chân-kinh.md` | Paper | 2026-04-24 | |
+| `raw/articles/ABACvsRBAC.md` | Article | 2026-04-23 | ⚠️ nguồn không còn |
+| `raw/articles/ArchitecturesandFunctionalComponents.md` | Article | 2026-04-23 | ⚠️ nguồn không còn |
+| `raw/articles/AttributeInfluencingFactors.md` | Article | 2026-04-23 | ⚠️ nguồn không còn |
+| `raw/articles/HowABACWork.md` | Article | 2026-04-23 | ⚠️ nguồn không còn |
+| `raw/articles/LogicalFormulaandEnumerated.md` | Article | 2026-04-23 | ⚠️ nguồn không còn |
+| `raw/articles/NGAC.md` | Article | 2026-04-23 | ⚠️ nguồn không còn |
+| `raw/articles/Using.md` | Article | 2026-04-23 | ⚠️ nguồn không còn |
+| `raw/articles/intro.md` | Article | 2026-04-23 | ⚠️ nguồn không còn |
+| `raw/papers/kafka-definitive-guide/kafka-appendix.md` | Paper | 2026-05-08 | ⚠️ nguồn không còn |
+| `raw/papers/kafka-definitive-guide/kafka-ch01-kafka-primer.md` | Paper | 2026-05-08 | ⚠️ nguồn không còn |
+| `raw/papers/kafka-definitive-guide/kafka-ch02-installing-kafka.md` | Paper | 2026-05-08 | ⚠️ nguồn không còn |
+| `raw/papers/kafka-definitive-guide/kafka-ch03-producers.md` | Paper | 2026-05-08 | ⚠️ nguồn không còn |
+| `raw/papers/kafka-definitive-guide/kafka-ch04-consumers.md` | Paper | 2026-05-08 | ⚠️ nguồn không còn |
+| `raw/papers/kafka-definitive-guide/kafka-ch05-internals.md` | Paper | 2026-05-08 | ⚠️ nguồn không còn |
+| `raw/papers/kafka-definitive-guide/kafka-ch06-reliable-delivery.md` | Paper | 2026-05-08 | ⚠️ nguồn không còn |
+| `raw/papers/kafka-definitive-guide/kafka-ch07-data-pipelines.md` | Paper | 2026-05-08 | ⚠️ nguồn không còn |
+| `raw/papers/kafka-definitive-guide/kafka-ch08-cross-cluster.md` | Paper | 2026-05-08 | ⚠️ nguồn không còn |
+| `raw/papers/kafka-definitive-guide/kafka-ch09-administering.md` | Paper | 2026-05-08 | ⚠️ nguồn không còn |
+| `raw/papers/kafka-definitive-guide/kafka-ch10-monitoring.md` | Paper | 2026-05-08 | ⚠️ nguồn không còn |
+| `raw/papers/kafka-definitive-guide/kafka-ch11-stream-processing.md` | Paper | 2026-05-08 | ⚠️ nguồn không còn |
+| `raw/papers/kafka-definitive-guide/kafka-preface-and-ch00.md` | Paper | 2026-05-08 | ⚠️ nguồn không còn |
 
 ## Meta Files
 
