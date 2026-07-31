@@ -30,11 +30,13 @@ Kiến thức tại đây được đúc kết từ sự giao thoa giữa tư du
 ## 📂 Kiến Trúc Thư Mục
 
 ```text
-Second-brain/
-├── raw/                 ← Tài liệu gốc. AI KHÔNG BAO GIỜ chỉnh sửa thư mục này.
+llm-wiki/
+├── raw/                 ← Tài liệu gốc. Append-only — AI KHÔNG BAO GIỜ sửa hay xóa.
 ├── wiki/                ← Kiến thức đã biên dịch. AI duy trì 100%.
 ├── outputs/             ← Các báo cáo, tóm tắt và nội dung do AI tạo ra.
-├── sessions/            ← Nhật ký hội thoại (chat sessions) từ các dự án.
+├── llm-server/          ← Hạ tầng chạy LLM cục bộ (Docker, Ollama, nginx).
+├── .agents/             ← Skills + workflows dùng chung cho mọi AI agent (nguồn gốc).
+├── .claude/             ← symlink trỏ về .agents/ để Claude Code dùng chung bộ đó.
 └── AGENTS.md            ← Sổ tay vận hành và bộ quy tắc cốt lõi cho các AI Agent.
 ```
 
@@ -51,6 +53,17 @@ Hệ thống của tôi được trang bị các workflow tự động sau:
 | `/cleanup`      | Kiểm tra sức khỏe wiki (giọng văn, cấu trúc, liên kết) và quét các mâu thuẫn tồn đọng.               |
 | `/breakdown`    | Quét wiki tìm các khái niệm còn thiếu và đề xuất tạo bài mới.                                        |
 | `/autoresearch` | **Nghiên cứu tự động**: Tự động tìm kiếm web, đánh giá nguồn, nạp và tổng hợp báo cáo về một chủ đề. |
+| `/overview`     | Dựng lại bản đồ kiến thức (Mermaid topic map) và cập nhật README.                                    |
+
+Kiểm tra sức khỏe wiki bằng máy, không bằng mắt:
+
+```bash
+python wiki/_build_backlinks.py --check
+```
+
+Script dựng lại `_backlinks.json` rồi audit wikilink hỏng, bài stub, bài quá dài, bài
+thiếu liên kết, bài vắng trong `_index.md`, và raw chưa vào `_absorb_log.json`. Exit code
+khác 0 khi còn link hỏng — `/cleanup` dùng nó làm cổng chặn.
 
 ## 🛡️ Tiêu Chuẩn Chất Lượng
 
@@ -72,8 +85,8 @@ mindmap
       ABAC
       Next-Generation Access Control
       Hybrid NGAC
+      Đồ thị quyền NGAC
       ABAC Architecture
-      NGAC Schema Mapping
     🤖 AI/LLM — 21 bài
       ollama-architecture
       Vudovn Antigravity Kit
@@ -94,27 +107,28 @@ mindmap
     ☕ Java/Spring — 10 bài
       spring-ioc-di
       java-concurrency
+      java-immutability
     🗄️ Database — 9 bài
       Oracle
+    📦 📦 Khác — 4 bài
+      Design Token
     🖥️ Frontend — 3 bài
       Jotai
       React Router
-    📦 📦 Khác — 1 bài
-      Interface vs Type Alias
 ```
 
-> **105** bài wiki · **330** liên kết chéo · Cập nhật: 2026-05-08
+> **108** bài wiki · **339** liên kết chéo · Cập nhật: 2026-07-31
 
 | Cluster | Bài | Hub Articles |
 |---------|-----|-------------|
-| 🔐 Bảo mật & Kiểm soát Truy cập | 23 | **ABAC** (7↩), **Next-Generation Access Control** (5↩), **Hybrid NGAC** (5↩) |
+| 🔐 Bảo mật & Kiểm soát Truy cập | 23 | **ABAC** (8↩), **Next-Generation Access Control** (6↩), **Hybrid NGAC** (6↩) |
 | 🤖 AI & LLM | 21 | **ollama-architecture** (9↩), **Vudovn Antigravity Kit** (5↩), **RAG** (4↩) |
 | 🏗️ Kiến trúc & Hệ thống | 21 | **Kafka** (13↩), **Kafka Replication** (8↩), **Pub/Sub** (5↩) |
 | ⚡ JavaScript & TypeScript | 17 | **TS** (7↩), **Call Stack** (5↩), **var** (4↩) |
-| ☕ Java & Spring | 10 | **spring-ioc-di** (6↩), **java-concurrency** (4↩) |
+| ☕ Java & Spring | 10 | **spring-ioc-di** (6↩), **java-concurrency** (4↩), **java-immutability** (4↩) |
 | 🗄️ Cơ sở dữ liệu | 9 | **Oracle** (6↩) |
+| 📦 Khác | 4 | **Design Token** (4↩) |
 | 🖥️ Frontend | 3 | — |
-| 📦 Khác | 1 | — |
 <!-- WIKI-MAP:END -->
 
 ## 🛠️ Công Nghệ Sử Dụng

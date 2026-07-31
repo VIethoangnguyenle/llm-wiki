@@ -214,3 +214,10 @@ summary: "Chronological log of all wiki operations"
 ## [2026-05-08] compile | kafka-definitive-guide ch01-04,08-10 → kafka-producer, kafka-consumer, kafka-mirrormaker, kafka-administration, kafka-monitoring (5 bài mới) + cập nhật apache-kafka (thêm cài đặt/hạ tầng, origin story)
 
 ## [2026-05-08] overview | Cập nhật topic map README — 105 bài, 330 liên kết
+
+## [2026-07-31] cleanup | Khử 20 raw trùng lặp (series đánh số raw/articles + ora/ trùng byte với bản tên mô tả), gộp về raw/articles/
+## [2026-07-31] cleanup | Tái dựng _absorb_log.json từ git history — 91 raw sống, 21 entry raw_missing (nguồn đã mất), 0 raw ngoài log
+## [2026-07-31] cleanup | Khôi phục 5 raw bị xóa nhầm từ git (dac, mac, ModelsAndPolicies, PolicyEnforcement, Terminology)
+## [2026-07-31] compile | ngac-security-model (1 bài mới) từ raw/ngac/ngac.md — lấp wikilink hỏng từ 3 bài NGAC
+## [2026-07-31] cleanup | _build_backlinks.py thêm chế độ --check (audit cơ học), /cleanup dùng làm gate Phase 0 + Phase 4
+## [2026-07-31] overview | Cập nhật topic map README — 108 bài, 339 liên kết

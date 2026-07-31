@@ -33,15 +33,12 @@ Second-brain/
 │   ├── charts/          ← Generated visualizations
 │   └── summaries/       ← Quick summaries on demand
 │
-├── sessions/            ← Session logs TẬP TRUNG từ tất cả dự án
-│   ├── hermes-agent/    ← Sessions từ Hermes-Agent
-│   ├── kenh-youtube/    ← Sessions từ kenh-youtube
-│   ├── bai-viet-mxh/    ← Sessions từ bai-viet-mxh
-│   ├── rag-notebooklm/  ← Sessions từ RAG-notebooklm
-│   └── second-brain/    ← Sessions từ Second-brain
-│
 └── AGENTS.md            ← THIS FILE — vault schema
 ```
+
+**Raw là append-only.** Không sửa, không xóa, không đổi tên file trong `raw/`. Nếu một
+nguồn bị xóa, bài wiki biên dịch từ nó mất hoàn toàn provenance — `_absorb_log.json`
+hiện còn 21 entry `raw_missing: true` là hậu quả của việc này.
 
 ## File Conventions
 
@@ -82,6 +79,19 @@ summary: "One-line summary for _index.md"
 - Ưu tiên quotes đắt giá, tránh quote tràn lan
 - 1 ý = 1 câu. Câu ngắn. Viết đoạn văn, hạn chế bullet-point trừ khi liệt kê.
 - Attribution thay vì assertion: "Karpathy mô tả nó là..." thay vì "Nó rất..."
+
+## Health Check — Máy Kiểm, Không Phải Mắt Kiểm
+
+```bash
+python wiki/_build_backlinks.py --check
+```
+
+Script rebuild `_backlinks.json` và audit những gì kiểm chứng được bằng máy: wikilink
+hỏng, bài stub, bài quá dài, bài link ra <2 bài khác, bài thiếu trong `_index.md`, raw
+chưa có trong `_absorb_log.json`. Exit code khác 0 khi còn wikilink hỏng.
+
+Agent **không** tự đếm dòng hay dò link bằng mắt — ở quy mô 100+ bài việc đó bỏ sót.
+`/cleanup` chạy script này ở Phase 0 và dùng lại nó làm gate ở Phase 4.
 
 ## Index Maintenance
 
